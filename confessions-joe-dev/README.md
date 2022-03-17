@@ -12,41 +12,67 @@ Daniel Roy Greenfeld
 
 ---
 
-# [fit] Pithy Phrase
+# [fit] 2004
 
-"concise and full of meaning"
-
-Reference: [vocabulary.com/dictionary/pithy](vocabulary.com/dictionary/pithy)
+![inline](assets/random-bike-shot_2988229284_o.jpg)
 
 ---
 
-# Way Back in Late 2004...
+# Scheduled Interview at NASA
 
-## Recruiter scheduled me to interview for NASA
-
----
-
-# No way I was going to work for NASA
-
-- No CS Degree
-- Only 7 years of experience
+![inline full](assets/280_NASAMeatball.jpg)
 
 ---
 
-# Treated interview as a practice session
+# [fit] 😞
 
-My plan:
-
-- Try different approaches to answers
-- Have fun!
+# [fit] No way I was going to work for the agency
 
 ---
 
-# How it went
+# [fit] No way I was going to work for the agency
 
-- Wore a suit because why not
-- Totally relaxed
-- Nailed every tech question
+- No computer science degree
+
+- Only 7 years professional experience
+
+---
+
+# [fit] Plan
+
+---
+
+# [fit] Treat interview as a practice session
+
+![inline full](assets/jackie-benny.jpeg)
+
+---
+
+# [fit] Test new approaches to typical questions
+
+![inline full](assets/sat-test.jpeg)
+
+---
+
+# [fit] Have fun!
+
+---
+
+# [fit] How it went
+
+---
+
+# [fit] **"What's your biggest weakness?"**
+
+## - NASA Interviewer
+
+---
+
+<br><br>
+
+# **"My biggest weakness is that I'm emotionally tied to my work so if I'm not doing well I take it personally. Then I work longer and harder to improve."**
+
+## - My normal response
 
 ---
 
@@ -58,11 +84,11 @@ My plan:
 
 ---
 
-# How I normally responded:
+# This time:
 
 <br>
 
-# "My biggest weakness is that I'm emotionally attached to my work so when I get stuck I take it personally"
+# "I'm stupid and lazy"
 
 ---
 
@@ -74,11 +100,19 @@ My plan:
 
 ---
 
-# NASA
+# NASA Interviewer
 
 <br>
 
 # [fit] "WTF?!"
+
+---
+
+# NASA Interviewer
+
+<br>
+
+# [fit] "You going to explain that?"
 
 ---
 
@@ -94,13 +128,7 @@ My plan:
 
 ---
 
-# I'm stupid
-
-## Can't figure things out
-
-- Always look first on PyPI or GitHub for libraries to do the work
-- Ask in Discord, Slack, Twitter, Facebook, etc for answers
-- Stack Overflow too
+# [fit] Let's go over each item in this list
 
 ---
 
@@ -108,9 +136,66 @@ My plan:
 
 ## Can't figure things out
 
-- TODO Show Arg Parse way
+### Always look first on PyPI or GitHub for libraries to do the work
 
-- TODO Show typer method
+---
+
+# Can't figure things out
+
+## OMG argparse
+
+```python
+import argparse
+
+# sub-command functions
+def foo(args):
+    print(args.x * args.y)
+
+def bar(args):
+    print('((%s))' % args.z)
+
+# create the top-level parser
+parser = argparse.ArgumentParser()
+subparsers = parser.add_subparsers()
+
+# create the parser for the "foo" command
+parser_foo = subparsers.add_parser('foo')
+parser_foo.add_argument('-x', type=int, default=1)
+parser_foo.add_argument('y', type=float)
+parser_foo.set_defaults(func=foo)
+
+# create the parser for the "bar" command
+parser_bar = subparsers.add_parser('bar')
+parser_bar.add_argument('z')
+parser_bar.set_defaults(func=bar)
+
+parser.parse_args()
+```
+
+---
+
+## Can't figure things out
+
+### So I use libraries like typer
+
+```python
+import typer
+
+app = typer.Typer()
+
+
+@app.command()
+def foo(y: float, x: int = 1 ):
+    print(x * y)
+
+@app.command()
+def bar(z: str):
+    print(f'(({z}))')
+
+
+if __name__ == '__main__':
+    app()
+```
 
 ---
 
@@ -118,13 +203,53 @@ My plan:
 
 ## Too stupid not to ask stupid questions
 
-- There are no stupid questions
-- Don't try to impress people by not asking questions
-- Thirty Minute Rule: [daniel.feldroy.com/30-minute-rule](https://daniel.feldroy.com/30-minute-rule)
-  - Don't waste more than 30 minutes on a problem without asking questions
-  - Change to 60 minutes if you like
+---
 
-Hint: Don't be a jerk and not let other people ask questions
+# I'm stupid
+
+## Too stupid not to ask stupid questions
+
+# There are no stupid questions
+
+---
+
+# Don't try to impress people by not asking questions
+
+---
+
+## No one cares
+
+## No one remembers
+
+---
+
+## Too stupid not to ask stupid questions
+
+# Obey the Thirty Minute Rule
+
+# [fit] [daniel.feldroy.com/30](https://daniel.feldroy.com/30-minute-rule)
+
+![inline](assets/young-me.jpg)
+
+---
+
+# Obey the Thirty Minute Rule
+
+## Don't waste more than 30 minutes on a problem without asking questions
+
+---
+
+# Obey the Thirty Minute Rule
+
+## Change to 60 minutes if you like
+
+---
+
+![inline full](assets/young-me.jpg)
+
+---
+
+# Hint: Don't be a jerk and not let other people ask questions
 
 ---
 
@@ -132,10 +257,64 @@ Hint: Don't be a jerk and not let other people ask questions
 
 ## Can't remember things
 
-- Docstrings are awesome
-- Typehints are awesome too, use them to reduce docstrings
-- Use markdown because of ease/portability
-- Write down even the slide bullets
+---
+
+## Can't remember things
+
+# Docstrings are awesome
+
+---
+
+## Can't remember things
+
+# Typehints are awesome too, use them to reduce docstrings
+
+---
+
+# Remember this?
+
+## Typehints means we don't have to write so many docs
+
+```python
+import typer
+
+app = typer.Typer()
+
+
+@app.command()
+def foo(y: float, x: int = 1 ):
+    print(x * y)
+
+@app.command()
+def bar(z: str):
+    print(f'(({z}))')
+
+
+if __name__ == '__main__':
+    app()
+```
+
+---
+
+## Can't remember things
+
+# Use markdown because of ease/portability
+
+- Even when I constantly wrote in RST I had to look stuff up
+- Markdown is just easier to learn
+- Reduce friction in your docs!
+
+---
+
+### Can't remember things
+
+## When following a talk or tutorial,
+
+# Write down even the slide bullets!
+
+---
+
+# For some people writing down notes enhances learning
 
 ---
 
