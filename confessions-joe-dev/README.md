@@ -398,23 +398,51 @@ Me back in the day:
 
 ---
 
-# I'm lazy
+### I'm lazy
 
 ## Don't wanna do anything twice
 
-- If I write the same code twice I stick in a function
-- I use typehints so I don't have to write so much docs
-- Then I stick the function into a `utils` module
-- Then I put it on GitHub so I don't lose it
-- Isn't this the foundation of open source?
+# If I write the same code twice I stick in a function
+
+---
+
+### I'm lazy
+
+## Don't wanna do anything twice
+
+# I use typehints so I write less docs
+
+---
+
+### I'm lazy
+
+## Don't wanna do anything twice
+
+# I stick the function into a `utils` module
+
+---
+
+### I'm lazy
+
+## Don't wanna do anything twice
+
+# I put the function on GitHub so I don't lose it
+
+---
+
+### I'm lazy
+
+## Don't wanna do anything twice
+
+# Isn't this the foundation of open source?
 
 ---
 
 [.build-lists: true]
 
-# I'm lazy
+## I'm lazy
 
-## Don't wanna debug code when I had it working before
+# Don't wanna debug code that worked before
 
 - Manually testing code by watching it run is hard
 - ...and boring
@@ -423,19 +451,19 @@ Me back in the day:
 
 ---
 
-# I'm lazy
+### I'm lazy
 
 ## Don't wanna debug code when I had it working before
 
-### Write down how to test in case you forget
+# Write down how to test lest you forget
 
 ![inline](assets/running-tests.png)
 
 ---
 
-# I'm lazy
+## I'm lazy
 
-## Don't wanna look hard for docs
+# Don't wanna look hard for docs
 
 - Every project should have a README
 - Longer form docs should use:
@@ -457,6 +485,12 @@ Me back in the day:
 
 ---
 
+# [fit] Thank you
+
+# [fit] Sharon Campbell
+
+---
+
 # My history at NASA
 
 - Started in 2005, ended in 2010
@@ -467,11 +501,7 @@ Me back in the day:
 
 ---
 
-# [fit] We're too stupid and lazy to...
-
----
-
-# [fit] ...go to other Planets
+# [fit] Another thing about NASA
 
 ---
 
@@ -485,41 +515,62 @@ Me back in the day:
 
 ---
 
-# [fit] We're not going anywhere
+# [fit] We're not going to other planets soon
 
 ---
 
-# [fit] Let's fix the Planet
-
----
-
-# Let's fix the Planet
-
-- Earth is going to get worse to live in before it gets better
-- Let's work to fight against climate change
-- Use our skills to end fossil fuel dependency
+# [fit] We can't run away from climate change
 
 ---
 
 # [fit] How we can use our stupid, lazy skills
 
----
-
-# How we can use our stupid, lazy skills
-
-- Work for renewable energy companies
-- Join fintech companies focused on green initiatives
-- Build tech to make us live more efficiently
-- Come work with me
+# [fit] to address climate change
 
 ---
 
-# [fit] Tossing my hat in the ring
+## How to use stupid, lazy skills to address climate change:
+
+# Join fintechs focused on green initiatives
+
+![inline](https://media.giphy.com/media/FAEEL82CUc1JPBas1V/giphy.gif)
 
 ---
 
-# Come and work with me at Octopus Energy Group
+## How to use stupid, lazy skills to address climate change:
 
-- Come and work with me at Octopus Energy Group
-  - Sell renewable energy to the people
-  -
+# Build smart devices
+
+---
+
+## How to use stupid, lazy skills to address climate change:
+
+# Work for renewable energy companies
+
+![inline](https://media.giphy.com/media/WSqsdbIH6mLrHe78tJ/giphy.gif)
+
+---
+
+## How to use stupid, lazy skills to address climate change:
+
+# Come work with me
+
+![inline](assets/browsing.png)
+
+---
+
+## Where to learn more
+
+Watch Michael Lee's keynot tomorrow
+
+---
+
+# [fit] Tossing my company hat in the ring
+
+---
+
+## Come and work with me at Octopus
+
+# [fit] [octopusenergy.com/careers](https://octopusenergy.com/careers)
+
+![inline full](assets/super_octo.png)
