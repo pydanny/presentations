@@ -1,4 +1,5 @@
 autoscale: true
+slide-transition: true
 
 # [fit] Confessions of Joe Developer
 
@@ -18,25 +19,34 @@ Daniel Roy Greenfeld
 
 ---
 
+[.background-color: #90EE90]
+
 # [fit] Yes, my hair was long in 2004
 
 ![inline](assets/long%20hair.png)
 
 ---
 
-# Scheduled Interview at NASA
+# Got interview at NASA
 
 ![inline full](assets/280_NASAMeatball.jpg)
 
 ---
 
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+
 # [fit] 😞
 
-# [fit] No way I was going to work for the agency
+# [fit] No way I was going to work for NASA
 
 ---
 
-# [fit] No way I was going to work for the agency
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit] No way I was going to work for NASA
 
 - No computer science degree
 
@@ -130,9 +140,9 @@ Daniel Roy Greenfeld
 
 ---
 
-# Can't figure things out
+## Can't figure things out
 
-## OMG argparse
+# OMG argparse
 
 ```python
 import argparse
@@ -166,7 +176,7 @@ parser.parse_args()
 
 ## Can't figure things out
 
-### So I use libraries like typer
+# Yay Typer!
 
 ```python
 import typer
@@ -381,6 +391,10 @@ Me back in the day:
 - Don't wanna do anything twice
 - Don't wanna debug code when I had it working before
 - Don't wanna look hard for docs
+
+---
+
+# [fit] Here we go on laziness!
 
 ---
 
