@@ -18,6 +18,12 @@ Daniel Roy Greenfeld
 
 ---
 
+# [fit] Yes, my hair was long in 2004
+
+![inline](assets/long%20hair.png)
+
+---
+
 # Scheduled Interview at NASA
 
 ![inline full](assets/280_NASAMeatball.jpg)
@@ -76,22 +82,6 @@ Daniel Roy Greenfeld
 
 ---
 
-# Critical question from NASA interviewer:
-
-<br>
-
-# [fit] "What's your biggest weakness?"
-
----
-
-# This time:
-
-<br>
-
-# "I'm stupid and lazy"
-
----
-
 # This time:
 
 <br>
@@ -132,11 +122,11 @@ Daniel Roy Greenfeld
 
 ---
 
-# I'm stupid
+### I'm stupid
 
 ## Can't figure things out
 
-### Always look first on PyPI or GitHub for libraries to do the work
+# Always look for libraries first
 
 ---
 
@@ -199,17 +189,17 @@ if __name__ == '__main__':
 
 ---
 
-# I'm stupid
+### I'm stupid
 
 ## Too stupid not to ask stupid questions
 
 ---
 
-# I'm stupid
-
-## Too stupid not to ask stupid questions
-
 # There are no stupid questions
+
+---
+
+# The only bad question is the one you do not ask
 
 ---
 
@@ -245,17 +235,19 @@ if __name__ == '__main__':
 
 ---
 
+# Hint: Don't be a jerk and not let other people ask questions
+
 ![inline full](assets/young-me.jpg)
 
 ---
 
-# Hint: Don't be a jerk and not let other people ask questions
+![inline full](assets/young-me.jpg)
 
 ---
 
-# I'm stupid
+## I'm stupid
 
-## Can't remember things
+# Can't remember things
 
 ---
 
@@ -298,11 +290,27 @@ if __name__ == '__main__':
 
 ## Can't remember things
 
-# Use markdown because of ease/portability
+# Use markdown because
 
-- Even when I constantly wrote in RST I had to look stuff up
-- Markdown is just easier to learn
-- Reduce friction in your docs!
+# of ease and portability
+
+---
+
+## Use markdown because of ease/portability
+
+# Even when I wrote in RST I had to look stuff up
+
+---
+
+## Use markdown because of ease/portability
+
+# Markdown is easy to learn
+
+---
+
+## Use markdown because of ease/portability
+
+# Reduce friction in your docs!
 
 ---
 
@@ -318,9 +326,9 @@ if __name__ == '__main__':
 
 ---
 
-# I'm stupid
+## I'm stupid
 
-## Can't remember things
+# Can't remember things
 
 Me back in the day:
 
@@ -329,24 +337,35 @@ Me back in the day:
 
 ---
 
-# I'm stupid
+### I'm stupid
 
 ## Can't remember things
 
-Documentation makes me look good!
-
-- Writing stuff down helps me remember
-- Can be used later for things like writing books
-
-TODO add Two Scoops of Django image
+# Documentation makes me look good!
 
 ---
 
-# I'm stupid
+## Documentation makes me look good!
 
-## Can't remember things
+# I can pull out old tech details that others don't have
 
-Documentation can you look good too:
+---
+
+## Documentation makes me look good!
+
+# Can be used later on other projects
+
+---
+
+## Documentation makes me look good!
+
+# Great for book content
+
+![inline full](assets/Two-Scoops-of-Django-3-Alpha-Cover_1080x.jpg)
+
+---
+
+# Documentation can you look good too:
 
 - https://docs.python-requests.org/
 - https://fastapi.tiangolo.com/
