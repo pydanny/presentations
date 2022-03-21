@@ -13,19 +13,21 @@ Daniel Roy Greenfeld
 
 ---
 
-# [fit] 2004
+# Way back in
 
-# Let's go to another time
+# [fit] 2004
 
 ---
 
 [.background-color: #90EE90]
 
-# [fit] My hair was long in 2004
+# [fit] I had long hair
 
 ![inline](assets/long%20hair.png)
 
 ---
+
+[.background-color: #ecd540]
 
 # Got interview at NASA
 
@@ -60,6 +62,8 @@ Daniel Roy Greenfeld
 
 ![inline full](assets/jackie-benny.jpeg)
 
+### Still from Jackie Chan's 1984 movie "Meals of Wheels"
+
 ---
 
 # [fit] Test new approaches to typical questions
@@ -67,6 +71,8 @@ Daniel Roy Greenfeld
 ![inline full](assets/sat-test.jpeg)
 
 ---
+
+[.background-color: #00FFFF]
 
 # [fit] Have fun!
 
@@ -100,6 +106,9 @@ Daniel Roy Greenfeld
 
 ---
 
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+
 # NASA Interviewer
 
 <br>
@@ -107,6 +116,9 @@ Daniel Roy Greenfeld
 # [fit] "WTF?!"
 
 ---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
 
 # NASA Interviewer
 
@@ -139,6 +151,8 @@ Daniel Roy Greenfeld
 ## Can't figure things out
 
 ---
+
+[.background-color: #00FFFF]
 
 ### I'm stupid
 
@@ -207,11 +221,15 @@ if __name__ == '__main__':
 
 ---
 
+[.background-color: #00FFFF]
+
 ### I'm stupid
 
 ## Too stupid not to ask stupid questions
 
 ---
+
+[.background-color: #00FF00]
 
 ## _hint:_
 
@@ -219,17 +237,25 @@ if __name__ == '__main__':
 
 ---
 
+[.background-color: #00FFFF]
+
 ## _hint:_
 
 # The only bad question is the one you do not ask
 
 ---
 
+[.background-color: #00FF00]
+
 ## _important professional advice:_
 
 # Don't try to impress people by not asking questions
 
 ---
+
+[.background-color: #00FFFF]
+
+### Ashamed to ask questions?
 
 ## No one cares
 
@@ -271,11 +297,15 @@ if __name__ == '__main__':
 
 ---
 
+[.background-color: #00FFFF]
+
 ## Can't remember things
 
 # Docstrings are awesome
 
 ---
+
+[.background-color: #00FF00]
 
 ## Can't remember things
 
@@ -308,6 +338,8 @@ if __name__ == '__main__':
 
 ---
 
+[.background-color: #00FFFF]
+
 ## Can't remember things
 
 # Use markdown because
@@ -316,9 +348,12 @@ if __name__ == '__main__':
 
 ---
 
+[.background-color: #FF0000]
+[.header: #FFFFFF]
+
 ## Use markdown because of ease/portability
 
-# Even when I wrote in RST I had to look stuff up
+# Even when I wrote daily in RST I had to look stuff up
 
 ---
 
@@ -373,6 +408,8 @@ Me back in the day:
 
 ---
 
+[.background-color: #ecd540]
+
 ## Documentation makes me look good!
 
 # Can be used later on other projects
@@ -387,10 +424,11 @@ Me back in the day:
 
 ---
 
-# Documentation can you look good too:
+## Documentation can you look good too:
 
-- https://docs.python-requests.org/
-- https://fastapi.tiangolo.com/
+# [docs.python-requests.org](https://docs.python-requests.org/)
+
+# [fastapi.tiangolo.com](https://fastapi.tiangolo.com/)
 
 ---
 
@@ -479,11 +517,23 @@ Me back in the day:
 
 # Don't wanna look hard for docs
 
-- Every project should have a README
-- Longer form docs should use:
-  - readthedocs.io
-  - GitHub pages
-  - Whatever
+Every project should have a README that covers:
+
+- Installation
+- Running the code
+- Testing the code
+
+---
+
+## I'm lazy
+
+# Don't wanna look hard for docs
+
+Longer form docs should use:
+
+- readthedocs.io
+- GitHub pages
+- Whatever
 
 ---
 
@@ -508,6 +558,14 @@ Me back in the day:
 # [fit] Thank you
 
 # [fit] Sharon Campbell
+
+---
+
+# [fit] One of my favorite managers ever
+
+# [fit] Sharon Campbell
+
+## If you're watching this video, please contact me, my company could use your talents
 
 ---
 
@@ -561,6 +619,12 @@ Me back in the day:
 
 ---
 
+[.background-color: #00FFFF]
+
+# [fit] Always be typing
+
+---
+
 # [fit] Pairing is great
 
 ---
@@ -569,7 +633,7 @@ Me back in the day:
 
 ---
 
-[.background-color: #00FF00]
+[.background-color: #00FFFF]
 
 # [fit] Always be the person typing
 
@@ -579,9 +643,18 @@ Me back in the day:
 
 ---
 
+[.background-color: #00FFFF]
+
+# [fit] Always be typing
+
+---
+
 # [fit] No exercises in the class?
 
 ---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF]
 
 # [fit] Then you are watching
 
@@ -597,6 +670,9 @@ Me back in the day:
 
 ---
 
+[.background-color: #FF0000]
+[.header: #FFFFFF]
+
 # [fit] Mastery can't be
 
 # [fit] found as a spectator
@@ -607,7 +683,7 @@ Me back in the day:
 
 # [fit] watching the social network"
 
--- TODO: Find who said that
+-- TODO: Find who said this and attribute them
 
 ---
 
@@ -636,6 +712,12 @@ Me back in the day:
 [.background-color: #00FF00]
 
 # [fit] Practice makes perfect
+
+---
+
+[.background-color: #00FFFF]
+
+# [fit] Always be typing
 
 ---
 
@@ -683,7 +765,7 @@ Me back in the day:
 
 # [fit] Want to use your skills to fight climate change?
 
-![inline full](assets/super_octo.png)
+![inline](assets/super_octo.png)
 
 # Want to be a planet-saving superhero?
 
