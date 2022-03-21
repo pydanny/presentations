@@ -565,7 +565,7 @@ Me back in the day:
 
 ---
 
-# [fit] But if you're learning?
+# [fit] But if you're trying to improve?
 
 ---
 
@@ -593,27 +593,55 @@ Me back in the day:
 
 # [fit] just not as fast
 
+# and...
+
 ---
 
-# [fit] To master anything
+# [fit] Mastery can't be
+
+# [fit] found as a spectator
+
+---
+
+# [fit] "You can't become a tech CEO by
+
+# [fit] watching the social network"
+
+-- TODO: Find who said that
+
+---
+
+# [fit] You can't win at
+
+# [fit] sports by watching TV
+
+---
+
+# [fit] You can't master code
+
+# [fit] unless you code
+
+---
+
+# [fit] To master anything...
 
 ---
 
 [.background-color: #00FF00]
 
-# [fit] You have to practice
-
----
-
-# [fit] Code, Code, Code
-
-# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
+# [fit]... you have to practice
 
 ---
 
 [.background-color: #00FF00]
 
 # [fit] Practice makes perfect
+
+---
+
+# [fit] Code, Code, Code
+
+# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
 
 ---
 
