@@ -15,13 +15,13 @@ Daniel Roy Greenfeld
 
 # [fit] 2004
 
-![inline](assets/random-bike-shot_2988229284_o.jpg)
+# Let's go to another time
 
 ---
 
 [.background-color: #90EE90]
 
-# [fit] Yes, my hair was long in 2004
+# [fit] My hair was long in 2004
 
 ![inline](assets/long%20hair.png)
 
@@ -92,6 +92,8 @@ Daniel Roy Greenfeld
 
 ---
 
+[.background-color: #ecd540]
+
 # This time:
 
 <br>
@@ -115,6 +117,8 @@ Daniel Roy Greenfeld
 # [fit] "You going to explain that?"
 
 ---
+
+[.background-color: #ecd540]
 
 # [fit] I'm stupid
 
@@ -382,6 +386,8 @@ Me back in the day:
 
 ---
 
+[.background-color: #ecd540]
+
 # [fit] I'm lazy
 
 ---
@@ -475,7 +481,13 @@ Me back in the day:
 
 # [fit] Did I get the job at NASA?
 
+<br>
+
+# [fit] ?
+
 ---
+
+[.background-color: #ecd540]
 
 # [fit] Yes
 
@@ -494,83 +506,147 @@ Me back in the day:
 # My history at NASA
 
 - Started in 2005, ended in 2010
+- Coded a lot
 - Learning Python and Django
 - Started what became django-crispy-forms
 - Met my wife
-- Learned a lot more about climate change
+- Learned about climate change
 
 ---
 
-# [fit] Another thing about NASA
+# My history at NASA
+
+- Started in 2005, ended in 2010
+- **Coded a lot**
+- Learning Python and Django
+- Started what became django-crispy-forms
+- Met my wife
+- Learned about climate change
 
 ---
 
-# [fit] Budgets
+[.background-color: #ecd540]
 
-- US Military: $715 billion
-  - Military space budget: $15 billion
-- NASA: $24.8 billion
-
-## NASA's budget is 3.4% of the US military budget
+# [fit] Coded a Lot
 
 ---
 
-# [fit] We're not going to other planets soon
+# [fit] Code, Code, Code
+
+# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
 
 ---
 
-# [fit] We can't run away from climate change
+## [fit] If you want to get good at anything
+
+# [fit] Practice
 
 ---
 
-# [fit] How we can use our stupid, lazy skills
+## [fit] Practice what you learn from this event
 
-# [fit] to address climate change
-
----
-
-## How to use stupid, lazy skills to address climate change:
-
-# Join fintechs focused on green initiatives
-
-![inline](https://media.giphy.com/media/FAEEL82CUc1JPBas1V/giphy.gif)
+# [fit] Use It
 
 ---
 
-## How to use stupid, lazy skills to address climate change:
-
-# Build smart devices
+# [fit] Pairing is great
 
 ---
 
-## How to use stupid, lazy skills to address climate change:
-
-# Work for renewable energy companies
-
-![inline](https://media.giphy.com/media/WSqsdbIH6mLrHe78tJ/giphy.gif)
+# [fit] But if you're learning?
 
 ---
 
-## How to use stupid, lazy skills to address climate change:
+# [fit] Always be the person typing
 
-# Come work with me
+---
+
+# [fit] Taking a class?
+
+---
+
+# [fit] No exercises in the class?
+
+---
+
+# [fit] Then you are watching
+
+# [fit] a spectator sport
+
+---
+
+# [fit] You will learn as a spectator
+
+# [fit] just not as fast
+
+---
+
+# [fit] To master anything
+
+---
+
+# [fit] You have to practice
+
+---
+
+# [fit] Code, Code, Code
+
+# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
+
+---
+
+# [fit] Practice makes perfect
+
+---
+
+# [fit] About Me
+
+---
+
+# [fit] Daniel Roy Greenfeld
+
+<br>
+
+# [fit] AKA "pydanny"
+
+---
+
+# [fit] Coder
+
+# [fit] Leader
+
+# [fit] Speaker
+
+---
+
+# [fit] Author, Husband
+
+![inline](https://www.feldroy.com/_next/image?url=%2Fimages%2FTwo-Scoops-of-Django-3-Alpha-Cover_1080x.jpg&w=3840&q=75)![inline](https://daniel.feldroy.com/images/danny-and-audrey-tsd111.jpg)![inline](https://daniel.feldroy.com/images/two-scoops-django-co-authors-M.jpg)![inline](https://daniel.feldroy.com/images/tsd15-beta.png)
+
+---
+
+# [fit] Father
+
+![inline](https://daniel.feldroy.com/images/uma-2020.png)
+
+# [fit] Working to give her the best planet possible
+
+---
+
+# [fit] Want to use your superpowers to fight climate change?
 
 ![inline](assets/browsing.png)
 
 ---
 
-## Where to learn more
-
-Watch Michael Lee's keynot tomorrow
-
----
-
-# [fit] Tossing my company hat in the ring
-
----
-
-## Come and work with me at Octopus
+## I'm hiring
 
 # [fit] [octopusenergy.com/careers](https://octopusenergy.com/careers)
 
 ![inline full](assets/super_octo.png)
+
+---
+
+# [fit] Questions
+
+# [fit] 🤔
