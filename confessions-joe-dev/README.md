@@ -46,11 +46,9 @@ Daniel Roy Greenfeld
 [.header: #FFFFFF, Avenir Next Bold]
 [.text: #FFFFFF, Avenir Next Bold]
 
-# [fit] No way I was going to work for NASA
+# [fit] No computer science degree
 
-- No computer science degree
-
-- Only 7 years professional experience
+# [fit] Only 7 years professional experience
 
 ---
 
@@ -132,7 +130,13 @@ Daniel Roy Greenfeld
 
 ---
 
-# [fit] Let's go over each item in this list
+# [fit] Let's go over each item
+
+---
+
+### I'm stupid
+
+## Can't figure things out
 
 ---
 
@@ -209,13 +213,19 @@ if __name__ == '__main__':
 
 ---
 
+## _hint:_
+
 # There are no stupid questions
 
 ---
 
+## _hint:_
+
 # The only bad question is the one you do not ask
 
 ---
+
+## _important professional advice:_
 
 # Don't try to impress people by not asking questions
 
@@ -249,11 +259,7 @@ if __name__ == '__main__':
 
 ---
 
-# Hint: Don't be a jerk and not let other people ask questions
-
-![inline full](assets/young-me.jpg)
-
----
+# Important: Don't be a jerk and not let other people ask questions
 
 ![inline full](assets/young-me.jpg)
 
@@ -355,7 +361,9 @@ Me back in the day:
 
 ## Can't remember things
 
-# Documentation makes me look good!
+# Documentation makes
+
+# me look good!
 
 ---
 
@@ -537,11 +545,15 @@ Me back in the day:
 
 ---
 
+[.background-color: #00FF00]
+
 ## [fit] If you want to get good at anything
 
 # [fit] Practice
 
 ---
+
+[.background-color: #00FF00]
 
 ## [fit] Practice what you learn from this event
 
@@ -556,6 +568,8 @@ Me back in the day:
 # [fit] But if you're learning?
 
 ---
+
+[.background-color: #00FF00]
 
 # [fit] Always be the person typing
 
@@ -585,6 +599,8 @@ Me back in the day:
 
 ---
 
+[.background-color: #00FF00]
+
 # [fit] You have to practice
 
 ---
@@ -595,11 +611,15 @@ Me back in the day:
 
 ---
 
+[.background-color: #00FF00]
+
 # [fit] Practice makes perfect
 
 ---
 
 # [fit] About Me
+
+![inline full](https://2022.pythonwebconf.com/speakers/daniel-roy-greenfeld/@@images/6ff422d2-3007-40af-9441-3ca9ef5a940d.jpeg)
 
 ---
 
@@ -627,23 +647,25 @@ Me back in the day:
 
 # [fit] Father
 
-![inline](https://daniel.feldroy.com/images/uma-2020.png)
+![inline full](https://daniel.feldroy.com/images/uma-2020.png)
 
 # [fit] Working to give her the best planet possible
 
 ---
 
-# [fit] Want to use your superpowers to fight climate change?
+# [fit] Want to use your skills to fight climate change?
 
-![inline](assets/browsing.png)
+![inline full](assets/super_octo.png)
+
+# Want to be a planet-saving superhero?
 
 ---
 
-## I'm hiring
+## Join me at Octopus Energy. We're hiring!
 
 # [fit] [octopusenergy.com/careers](https://octopusenergy.com/careers)
 
-![inline full](assets/super_octo.png)
+![inline](assets/browsing.png)
 
 ---
 
