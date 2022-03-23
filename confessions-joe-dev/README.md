@@ -136,6 +136,8 @@ Daniel Roy Greenfeld
 
 # [fit] I'm stupid
 
+![inline full](https://media.giphy.com/media/1014RBn4HVSTK/giphy.gif)
+
 ---
 
 # I'm stupid
@@ -222,6 +224,12 @@ def bar(z: str):
 if __name__ == '__main__':
     app()
 ```
+
+---
+
+![inline](https://typer.tiangolo.com/img/logo-margin/logo-margin-vector.svg)
+
+# [fit] [typer.tiangolo.com](https://typer.tiangolo.com/)
 
 ---
 
@@ -373,6 +381,12 @@ if __name__ == '__main__':
 
 ---
 
+# Markdown is so awesome it has a logo!
+
+![inline full](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/640px-Markdown-mark.svg.png)
+
+---
+
 ### Can't remember things
 
 ## When following a talk or tutorial,
@@ -434,11 +448,15 @@ Me back in the day:
 
 # [fastapi.tiangolo.com](https://fastapi.tiangolo.com/)
 
+![inline](https://docs.python-requests.org/en/latest/_static/requests-sidebar.png)![inline](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
+
 ---
 
 [.background-color: #ecd540]
 
 # [fit] I'm lazy
+
+![inline full](https://media.giphy.com/media/pVkmGyqYRt4qY/giphy.gif)
 
 ---
 
