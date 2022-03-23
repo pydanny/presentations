@@ -1,13 +1,17 @@
 autoscale: true
 slide-transition: true
 
-# [fit] Confessions of Joe Developer
+# [fit] Confessions of
+
+# [fit] Joe Developer
 
 Daniel Roy Greenfeld
 
 ---
 
-# [fit] Confessions of Joe Developer
+# [fit] Confessions of
+
+# [fit] Joe Developer
 
 Daniel Roy Greenfeld
 
@@ -683,8 +687,6 @@ Longer form docs should use:
 
 # [fit] watching the social network"
 
--- TODO: Find who said this and attribute them
-
 ---
 
 # [fit] You can't win at
@@ -693,13 +695,11 @@ Longer form docs should use:
 
 ---
 
-# [fit] You can't master code
-
-# [fit] unless you code
+# [fit] To master anything...
 
 ---
 
-# [fit] To master anything...
+# [fit] To master coding...
 
 ---
 
