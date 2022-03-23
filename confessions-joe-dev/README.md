@@ -136,8 +136,6 @@ Daniel Roy Greenfeld
 
 # [fit] I'm stupid
 
-![inline full](https://media.giphy.com/media/1014RBn4HVSTK/giphy.gif)
-
 ---
 
 # I'm stupid
@@ -455,8 +453,6 @@ Me back in the day:
 [.background-color: #ecd540]
 
 # [fit] I'm lazy
-
-![inline full](https://media.giphy.com/media/pVkmGyqYRt4qY/giphy.gif)
 
 ---
 
