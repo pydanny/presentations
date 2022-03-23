@@ -796,3 +796,26 @@ Longer form docs should use:
 # [fit] Questions
 
 # [fit] 🤔
+
+---
+
+# [fit] Links
+
+Articles
+
+- https://daniel.feldroy.com/posts/thirty-minute-rule
+- https://daniel.feldroy.com/posts/code-code-code
+
+My notes back in the day
+
+- [pydanny-event-notes.readthedocs.io/](https://pydanny-event-notes.readthedocs.io/)
+- [daniel.feldroy.com/posts/2011-12-story-of-live-noting](https://daniel.feldroy.com/posts/2011-12-story-of-live-noting)
+
+Projects:
+
+- https://typer.tiangolo.com/
+- https://fastapi.tiangolo.com/
+
+Jobs at Octopus
+
+- https://octopusenergy.com/careers
