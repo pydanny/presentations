@@ -440,7 +440,7 @@ Me back in the day:
 
 ---
 
-## Documentation can you look good too:
+## Documentation can make you look good too:
 
 # [docs.python-requests.org](https://docs.python-requests.org/)
 

@@ -448,7 +448,7 @@ Me back in the day:
 
 ---
 
-## Documentation can you look good too:
+## Documentation can make you look good too:
 
 # [docs.python-requests.org](https://docs.python-requests.org/)
 
@@ -807,6 +807,8 @@ _All employees get stock options, requires an office in country_
 
 ---
 
+[.background-color: #ecd540]
+
 # dev.bg has climate-focused jobs!
 
 Search on:
@@ -815,7 +817,7 @@ Search on:
 - Climate
 - Renewables
 
-# The climate industry is exploding, keep coming back to dev.bg!
+# The climate industry is exploding, keep searching on dev.bg!
 
 ---
 
