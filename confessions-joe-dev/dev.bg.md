@@ -19,7 +19,7 @@ Daniel Roy Greenfeld
 
 <br><br>
 
-# [fit] Hello dev.bg!! 🇧🇬
+# [fit] Hello DEV.BG!! 🇧🇬
 
 # April 11, 2022
 
@@ -809,7 +809,7 @@ _All employees get stock options, requires an office in country_
 
 [.background-color: #ecd540]
 
-# dev.bg has climate-focused jobs!
+# DEV.BG has climate-focused jobs!
 
 Search on:
 
@@ -817,7 +817,7 @@ Search on:
 - Climate
 - Renewables
 
-# The climate industry is exploding, keep searching on dev.bg!
+# The climate industry is exploding, keep searching on DEV.BG!
 
 ---
 
@@ -835,4 +835,4 @@ Search on:
 - [daniel.feldroy.com/posts/2011-12-story-of-live-noting](https://daniel.feldroy.com/posts/2011-12-story-of-live-noting)
 - https://typer.tiangolo.com/
 - https://fastapi.tiangolo.com/
-- https://dev.bg
+- https://DEV.BG
