@@ -1,23 +1,36 @@
 autoscale: true
 slide-transition: true
 
-# [fit] Python and Django at NASA
+[.background-color: #003c80]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
 
-# [fit] How to improve as a software developer
+# [fit] Scaling from One to Billions
 
-Daniel Roy Greenfeld
-
----
-
-# [fit] Python and Django at NASA
-
-# [fit] How to improve as a software developer
+# [fit] How to change the world as a software engineer
 
 Daniel Roy Greenfeld
 
 ---
 
-![inline](assets/Django-Houston-May.jpeg)
+[.background-color: #003c80]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit] Scaling from One to Billions
+
+# [fit] How to change the world as a software engineer
+
+Daniel Roy Greenfeld
+
+---
+
+[.background-color: #003c80]
+[.header: #FFFFFF, Avenir Next Bold]
+
+# [fit] Olá Portugal!
+
+![inline](assets/dc-logo-blug.png)
 
 ---
 
@@ -362,27 +375,6 @@ if __name__ == '__main__':
 
 ---
 
-[.background-color: #FF0000]
-[.header: #FFFFFF]
-
-## Use markdown because of ease/portability
-
-# Even when I wrote daily in RST I had to look stuff up
-
----
-
-## Use markdown because of ease/portability
-
-# Markdown is easy to learn
-
----
-
-## Use markdown because of ease/portability
-
-# Reduce friction in your docs!
-
----
-
 # Markdown is so awesome it has a logo!
 
 ![inline full](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/640px-Markdown-mark.svg.png)
@@ -397,7 +389,7 @@ if __name__ == '__main__':
 
 ---
 
-# For some people writing down notes enhances learning
+# For most people writing down notes enhances learning
 
 ---
 
@@ -587,161 +579,82 @@ Longer form docs should use:
 
 # [fit] Sharon Campbell
 
-## If you're watching this video, please contact me, my company could use your talents
+## If you're watching this video, please contact me, Octopus Energy could use your talents
 
 ---
 
-# My history at NASA
+# [fit] Sharing Code
 
-- Started in 2005, ended in 2010
-- Coded a lot
-- Learning Python and Django
-- Started what became django-crispy-forms
-- Met my wife
-- Learned about climate change
+- Books
+- Blog
+- Open source
 
 ---
 
-# My history at NASA
+# [fit] Ethics in Code
 
-- Started in 2005, ended in 2010
-- **Coded a lot**
-- Learning Python and Django
-- Started what became django-crispy-forms
-- Met my wife
-- Learned about climate change
+![inline](https://media.giphy.com/media/mCClSS6xbi8us/giphy.gif)
 
 ---
 
-[.background-color: #ecd540]
+# [fit] Our Work used for evil
 
-# [fit] Coded a Lot
-
----
-
-# [fit] Code, Code, Code
-
-# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
+- Cambridge Analytica
+- CIA/NSA attack systems
+- OpenCV (and other tools) used to spy on citizens
 
 ---
 
-[.background-color: #00FF00]
+![inline](assets/1920px-Cambridge_Analytica_logo.svg.png)
 
-## [fit] If you want to get good at anything
-
-# [fit] Practice
-
----
-
-[.background-color: #00FF00]
-
-## [fit] Practice what you learn from this event
-
-# [fit] Use It
+- Private intelligence company
+- Used unethically gathered facebook data
+- Used open source tools to be build an analytics platform
+- Affected multiple elections
 
 ---
 
-[.background-color: #00FFFF]
+Cambridge Analytica
 
-# [fit] Always be typing
+- Private intelligence company
 
----
+- Used unethically/illegally gathered facebook data
 
-# [fit] Pairing is great
+- Used open source tools to be build an analytics platform
 
----
-
-# [fit] But if you're trying to improve?
+- Affecte elections around the world
 
 ---
 
-[.background-color: #00FFFF]
+# [fit] Challenge of Open Source and Open Knowledge Share
 
-# [fit] Always be the person typing
-
----
-
-# [fit] Taking a class?
+- We share so everyone can benefit
+- Unfortunately "everyone" includes causes we do not like
 
 ---
 
-[.background-color: #00FFFF]
+# [fit] IMO this is an Unfixable Problem
 
-# [fit] Always be typing
-
----
-
-# [fit] No exercises in the class?
+- Knowledge is like the current state of firearms in the USA
+- Distribution is too easy
+- TODO this might distract from the talk
 
 ---
 
-[.background-color: #FF0000]
-[.header: #FFFFFF]
+# [fit] Instead, focus on ethical causes
 
-# [fit] Then you are watching
-
-# [fit] a spectator sport
-
----
-
-# [fit] You will learn as a spectator
-
-# [fit] just not as fast
-
-# and...
+- We cannot change society easily
+- Another approach is to use our skills for the direct good
+- My choice is climate change
 
 ---
 
-[.background-color: #FF0000]
-[.header: #FFFFFF]
+# [fit] What's your choice?
 
-# [fit] Mastery can't be
-
-# [fit] found as a spectator
-
----
-
-# [fit] "You can't become a tech CEO by
-
-# [fit] watching the social network"
-
----
-
-# [fit] You can't win at
-
-# [fit] sports by watching TV
-
----
-
-# [fit] To master anything...
-
----
-
-# [fit] To master coding...
-
----
-
-[.background-color: #00FF00]
-
-# [fit]... you have to practice
-
----
-
-[.background-color: #00FF00]
-
-# [fit] Practice makes perfect
-
----
-
-[.background-color: #00FFFF]
-
-# [fit] Always be typing
-
----
-
-# [fit] Code, Code, Code
-
-# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
+- Better medical care
+- Use OpenCV to do analytics on crops, not people
+- Build the future we want, not what dudebros/dudesisters are trying to exit on
+- TODO come up with a bunch more
 
 ---
 
