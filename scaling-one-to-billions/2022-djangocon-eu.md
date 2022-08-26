@@ -438,11 +438,13 @@ Me back in the day:
 
 ## Documentation can make you look good too:
 
+# [docs.djangoproject.com](https://docs.djangoproject.com)
+
 # [docs.python-requests.org](https://docs.python-requests.org/)
 
 # [fastapi.tiangolo.com](https://fastapi.tiangolo.com/)
 
-![inline](https://docs.python-requests.org/en/latest/_static/requests-sidebar.png)![inline](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
+![inline](https://static.djangoproject.com/img/logos/django-logo-positive.png)![inline](https://docs.python-requests.org/en/latest/_static/requests-sidebar.png)![inline](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
 
 ---
 
@@ -493,6 +495,14 @@ Me back in the day:
 ## Don't wanna do anything twice
 
 # I put the function on GitHub so I don't lose it
+
+---
+
+### I'm lazy
+
+## Don't wanna do anything twice
+
+# I put the project on PyPI so I can install it easily
 
 ---
 
@@ -579,17 +589,48 @@ Longer form docs should use:
 
 # [fit] Sharon Campbell
 
-## If you're watching this video, please contact me, Octopus Energy could use your talents
+### If you're watching this, please contact me,
+
+### Octopus Energy 🐙 could use your talents
 
 ---
 
-# [fit] Sharing Code
+# [fit] Worked at NASA 2005-2010
 
-- Books
-- Blog
-- Open source
+Learned so much!
+
+- Got started in Python (Thanks Chris Shenton)
+- Open sourced my first code
+
+  - django-crispy-forms
+
+![inline](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1920px-NASA_logo.svg.png)![inline](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/2880px-NASA_Worm_logo.svg.png)
 
 ---
+
+# [fit] Worked at NASA
+
+## Got educated about global climate change
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1920px-The_Blue_Marble_%28remastered%29.jpg)
+
+---
+
+# [fit] But what could I do as an individual?
+
+- Recycle?
+- Compost?
+- Reduce my carbon load?
+
+---
+
+# [fit] But what could I do as an individual?
+
+## Let's return to this later...
+
+---
+
+## Instead let's explore
 
 # [fit] Ethics in Code
 
@@ -599,9 +640,11 @@ Longer form docs should use:
 
 # [fit] Our Work used for evil
 
-- Cambridge Analytica
-- CIA/NSA attack systems
 - OpenCV (and other tools) used to spy on citizens
+
+  - "They" tried to recruit me to do this kind of work
+
+- Cambridge Analytica
 
 ---
 
@@ -614,47 +657,82 @@ Longer form docs should use:
 
 ---
 
-Cambridge Analytica
+# Questions I Have For CA developers
 
-- Private intelligence company
+![inline](assets/1920px-Cambridge_Analytica_logo.svg.png)
 
-- Used unethically/illegally gathered facebook data
-
-- Used open source tools to be build an analytics platform
-
-- Affecte elections around the world
+- What were they thinking?
+- Did it not bother them what they were doing?
+- How well did the developers get compensated for creating immoral influence tools?
 
 ---
 
-# [fit] Challenge of Open Source and Open Knowledge Share
-
-- We share so everyone can benefit
-- Unfortunately "everyone" includes causes we do not like
+# [fit] Questions we should ask of every employer/client
 
 ---
 
-# [fit] IMO this is an Unfixable Problem
+# [fit] Questions to ask every employer/client
 
-- Knowledge is like the current state of firearms in the USA
-- Distribution is too easy
-- TODO this might distract from the talk
+<br>
 
----
+# [fit] Who is helped?
 
-# [fit] Instead, focus on ethical causes
+<br>
 
-- We cannot change society easily
-- Another approach is to use our skills for the direct good
-- My choice is climate change
+# [fit] Who is hurt?
 
 ---
 
-# [fit] What's your choice?
+# [fit] In other words
 
-- Better medical care
-- Use OpenCV to do analytics on crops, not people
-- Build the future we want, not what dudebros/dudesisters are trying to exit on
-- TODO come up with a bunch more
+- Does this make the obscenely rich get richer?
+- Does this subvert election processes?
+- Does this intrude on individual sovreignty?
+- Does this reinforce the fossil fuel industry?
+- Does this hurt our future?
+
+---
+
+# [fit] Does this hurt our future?
+
+Climate change is real
+
+- A series of incrementally hotter years
+- In 2022 Europe and South Asia suffered a devastating heat wave
+- The South Western USA is under severe water restrictions
+
+---
+
+<sub>This isn't Southern California, rather Auburge, France 2022.</sub>
+
+![inline fill](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Huveaune_Aubagne_dry_bed.jpg/2560px-Huveaune_Aubagne_dry_bed.jpg)
+
+---
+
+# [fit] It doesn't have to be this way...
+
+---
+
+## [fit] ...and here's why
+
+---
+
+# [fit] Programming Gives Us Super Powers
+
+- To improve the lives of ourselves and our families
+- To build new and innovative businesses
+- To share ideas and knowledge around the world
+
+---
+
+# [fit] Programming Gives Us Super Powers
+
+- To improve the lives of ourselves and our families
+- To build new and innovative businesses
+- To share ideas and knowledge around the world
+- **To save the planet**
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1920px-The_Blue_Marble_%28remastered%29.jpg)
 
 ---
 
