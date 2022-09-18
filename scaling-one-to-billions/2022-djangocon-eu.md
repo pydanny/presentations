@@ -635,11 +635,11 @@ Every project should have a README that covers:
 
 # [fit] Individual effort vs.
 
-- big industry?
+- Gigantic fossil fuel interests?
 
-- governments in alliance with big industry?
+- Politicians across the planet?
 
-- people who deny the 99% scientific consensus?
+- People who deny the 99% scientific consensus?
 
 ---
 
@@ -835,11 +835,12 @@ A sampling powered by my own stupid laziness and desire to practice
 
 # [fit] My work used for good
 
-- Help people build their dream projects
+- People using it to land jobs
+- Building dream projects
 - Various community service efforts
-- Finding suspects after 2013 Marathon bombers
-
-TODO improve
+  - Health care firms
+  - Charities and non-profits
+  - Catching terrorist bombers (Boston Marathon 2013)
 
 ---
 
@@ -882,13 +883,9 @@ Things built off my open source and books:
 
 ---
 
-# [fit] Questions to ask every employer/client
-
-<br>
-
 # [fit] Who is helped?
 
-<br>
+---
 
 # [fit] Who is hurt?
 
@@ -899,8 +896,9 @@ Things built off my open source and books:
 - Promote falsehood over truth?
 - Subvert election processes?
 - Intrude on individual sovreignty?
-- Reinforce the fossil fuel industry?
-- In other words, does this hurt our future?
+- Spew unnecessary carbon into the atmosphere?
+
+## In other words, does this hurt our future?
 
 ---
 
@@ -962,9 +960,20 @@ Climate change is real
 [.build-lists: true]
 [.background-color: #00FF00]
 
-# [fit] My impact on climate as a software developer
+# [fit] My climate impact as a software developer
 
-# [fit] working at a climate focused firm is gigantic
+# [fit] working on decarbonization and electrification
+
+# [fit] Gigantic
+
+---
+
+[.build-lists: true]
+[.background-color: #00FF00]
+
+![inline](https://daniel.feldroy.com/images/uma-2020.png)
+
+# [fit] This is going to be my legacy
 
 ---
 
@@ -983,42 +992,6 @@ Climate change is real
 [.column]
 
 ![inline](assets/super_octo.png)
-
----
-
-# [fit] About Me
-
-![inline full](https://2022.pythonwebconf.com/speakers/daniel-roy-greenfeld/@@images/6ff422d2-3007-40af-9441-3ca9ef5a940d.jpeg)
-
----
-
-# [fit] Daniel Roy Greenfeld
-
-<br>
-
-# [fit] AKA "pydanny"
-
----
-
-# [fit] Coder
-
-# [fit] Leader
-
-# [fit] Speaker
-
----
-
-# [fit] Author, Husband
-
-![inline](https://www.feldroy.com/_next/image?url=%2Fimages%2FTwo-Scoops-of-Django-3-Alpha-Cover_1080x.jpg&w=3840&q=75)![inline](https://daniel.feldroy.com/images/danny-and-audrey-tsd111.jpg)![inline](https://daniel.feldroy.com/images/two-scoops-django-co-authors-M.jpg)![inline](https://daniel.feldroy.com/images/tsd15-beta.png)
-
----
-
-# [fit] Father
-
-![inline full](https://daniel.feldroy.com/images/uma-2020.png)
-
-# [fit] Working to give her the best planet possible
 
 ---
 
