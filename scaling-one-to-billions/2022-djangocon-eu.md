@@ -1,3 +1,4 @@
+slidenumbers: true
 autoscale: true
 slide-transition: true
 
@@ -31,6 +32,22 @@ Daniel Roy Greenfeld
 # [fit] Olá Portugal!
 
 ![inline](assets/dc-logo-blug.png)
+
+---
+
+# [fit] What this talk is about
+
+- What we do at an individual level scales up
+- What happens when what we do scales up?
+
+---
+
+# [fit] What this talk is about
+
+- What we do at at individual level scales up
+- What happens when what we do scales up?
+
+# [fit] Let's go!
 
 ---
 
@@ -365,22 +382,6 @@ if __name__ == '__main__':
 
 ---
 
-[.background-color: #00FFFF]
-
-## Can't remember things
-
-# Use markdown because
-
-# of ease and portability
-
----
-
-# Markdown is so awesome it has a logo!
-
-![inline full](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/640px-Markdown-mark.svg.png)
-
----
-
 ### Can't remember things
 
 ## When following a talk or tutorial,
@@ -549,18 +550,6 @@ Every project should have a README that covers:
 
 ---
 
-## I'm lazy
-
-# Don't wanna look hard for docs
-
-Longer form docs should use:
-
-- readthedocs.io
-- GitHub pages
-- Whatever
-
----
-
 # [fit] Did I get the job at NASA?
 
 <br>
@@ -597,14 +586,16 @@ Longer form docs should use:
 
 # [fit] Worked at NASA 2005-2010
 
-Learned so much!
-
 - Got started in Python (Thanks Chris Shenton)
-- Open sourced my first code
+- Met my wife
+- Open sourced my first code:
 
-  - django-crispy-forms
+  - What became django-crispy-forms
 
-![inline](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1920px-NASA_logo.svg.png)![inline](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/2880px-NASA_Worm_logo.svg.png)
+- **Learned about climate change**
+- Coded a lot
+
+![left](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1920px-NASA_logo.svg.png)
 
 ---
 
@@ -616,54 +607,274 @@ Learned so much!
 
 ---
 
-# [fit] But what could I do as an individual?
+# [fit] Doing what I could as an individual
+
+- Recycling
+- Composting
+- Reduce my carbon load
+
+---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit] Doing what I could as an individual
 
 - Recycle?
 - Compost?
 - Reduce my carbon load?
 
+# Does any of that make a difference?
+
 ---
 
-# [fit] But what could I do as an individual?
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit] Individual effort vs.
+
+- big industry?
+
+- governments in alliance with big industry?
+
+- people who deny the 99% scientific consensus?
+
+---
+
+# [fit] What could I do as an individual?
 
 ## Let's return to this later...
 
 ---
 
-## Instead let's explore
+# [fit] Worked at NASA 2005-2010
+
+- Got started in Python (Thanks Chris Shenton)
+- Met my wife
+- Open sourced my first code:
+
+  - What became django-crispy-forms
+
+- Learned about climate change
+- **Coded a lot**
+
+![left](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1920px-NASA_logo.svg.png)
+
+---
+
+[.background-color: #ecd540]
+
+# [fit] Coded a Lot
+
+---
+
+# [fit] Code, Code, Code
+
+# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
+
+---
+
+[.background-color: #00FF00]
+
+## [fit] If you want to get good at anything
+
+# [fit] Practice
+
+---
+
+[.background-color: #00FF00]
+
+## [fit] Practice what you learn from this event
+
+# [fit] Use It
+
+---
+
+[.background-color: #00FFFF]
+
+# [fit] Always be typing
+
+---
+
+# [fit] Pairing is great
+
+---
+
+# [fit] But if you're trying to improve?
+
+---
+
+[.background-color: #00FFFF]
+
+# [fit] Always be the person typing
+
+---
+
+# [fit] Taking a class?
+
+---
+
+[.background-color: #00FFFF]
+
+# [fit] Always be typing
+
+---
+
+# [fit] No exercises in the class?
+
+---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF]
+
+# [fit] Then you are watching
+
+# [fit] a spectator sport
+
+---
+
+# [fit] You will learn as a spectator
+
+# [fit] just not as fast
+
+# and...
+
+---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF]
+
+# [fit] Mastery can't be
+
+# [fit] found as a spectator
+
+---
+
+# [fit] "You can't become a tech CEO by
+
+# [fit] watching the social network"
+
+---
+
+# [fit] You can't win at
+
+# [fit] sports by watching TV
+
+---
+
+# [fit] To master anything...
+
+---
+
+# [fit] To master coding...
+
+---
+
+[.background-color: #00FF00]
+
+# [fit]... you have to practice
+
+---
+
+[.background-color: #00FF00]
+
+# [fit] Practice makes perfect
+
+---
+
+[.background-color: #00FFFF]
+
+# [fit] Always be typing
+
+---
+
+# [fit] Code, Code, Code
+
+# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
+
+---
+
+# Diving into open source
+
+# [fit] 2010 onwards
+
+Powered by my own stupid laziness and desire to practice
+
+_(plus the rush when others liked my work)_
+
+---
+
+# Open source
+
+A sampling powered by my own stupid laziness and desire to practice
+
+- django-uni-form => django-crispy-forms
+- Django Packages
+- Django CBV docs refactor
+- Cookiecutter
+- Cookiecutter Django
+- cached-property
+
+---
+
+# 2013 onwards: Sharing Django tribal knowledge
+
+![inline](https://www.feldroy.com/_next/image?url=%2Fimages%2FTwo-Scoops-of-Django-3-Alpha-Cover_1080x.jpg&w=3840&q=75)![inline](https://daniel.feldroy.com/images/danny-and-audrey-tsd111.jpg)![inline](https://daniel.feldroy.com/images/two-scoops-django-co-authors-M.jpg)![inline](https://daniel.feldroy.com/images/tsd15-beta.png)
+
+---
+
+# [fit] Sharing
+
+# [fit] code and knowledge
+
+# [fit] is awesome!
+
+---
+
+# [fit] My work used for good
+
+- Help people build their dream projects
+- Various community service efforts
+- Finding suspects after 2013 Marathon bombers
+
+TODO improve
+
+---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit] But what about when
+
+# [fit] my work is used for
+
+# [fit] evil?
+
+---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit] But what if my work was used for evil?
+
+Things built off my open source and books:
+
+- Site promoting flat earth / no moon landings
+- App to sell wildlife illegally
+- Commercial venture to spy on private citizens
+- Lots more
+
+# :rage:
+
+---
 
 # [fit] Ethics in Code
 
 ![inline](https://media.giphy.com/media/mCClSS6xbi8us/giphy.gif)
-
----
-
-# [fit] Our Work used for evil
-
-- OpenCV (and other tools) used to spy on citizens
-
-  - "They" tried to recruit me to do this kind of work
-
-- Cambridge Analytica
-
----
-
-![inline](assets/1920px-Cambridge_Analytica_logo.svg.png)
-
-- Private intelligence company
-- Used unethically gathered facebook data
-- Used open source tools to be build an analytics platform
-- Affected multiple elections
-
----
-
-# Questions I Have For CA developers
-
-![inline](assets/1920px-Cambridge_Analytica_logo.svg.png)
-
-- What were they thinking?
-- Did it not bother them what they were doing?
-- How well did the developers get compensated for creating immoral influence tools?
 
 ---
 
@@ -683,13 +894,13 @@ Learned so much!
 
 ---
 
-# [fit] In other words
+# [fit] Does this project:
 
-- Does this make the obscenely rich get richer?
-- Does this subvert election processes?
-- Does this intrude on individual sovreignty?
-- Does this reinforce the fossil fuel industry?
-- Does this hurt our future?
+- Promote falsehood over truth?
+- Subvert election processes?
+- Intrude on individual sovreignty?
+- Reinforce the fossil fuel industry?
+- In other words, does this hurt our future?
 
 ---
 
@@ -717,6 +928,10 @@ Climate change is real
 
 ---
 
+![inline](assets/programming-supertpowers.png)
+
+---
+
 # [fit] Programming Gives Us Super Powers
 
 - To improve the lives of ourselves and our families
@@ -733,6 +948,41 @@ Climate change is real
 - **To save the planet**
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1920px-The_Blue_Marble_%28remastered%29.jpg)
+
+---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+### My impact on climate as an individual is tiny
+
+---
+
+[.build-lists: true]
+[.background-color: #00FF00]
+
+# [fit] My impact on climate as a software developer
+
+# [fit] working at a climate focused firm is gigantic
+
+---
+
+[.build-lists: true]
+[.background-color: #00FF00]
+
+# [fit] Join me in the good fight against climate change
+
+[.column]
+
+- Octopus Energy is hiring
+  - _We have a booth at DjangoCon!_
+- Or go work for a competitor
+- Doesn't matter which green firm "wins", we all benefit
+
+[.column]
+
+![inline](assets/super_octo.png)
 
 ---
 
@@ -772,18 +1022,6 @@ Climate change is real
 
 ---
 
-[.background-color: #00FF00]
-
-# [fit] Using my skills to fight climate change!
-
-# [fit] Working at Octopus Energy
-
-![inline](assets/super_octo.png)
-
-# Want to be a planet-saving superhero?
-
----
-
 [.background-color: #c9e9f6]
 
 # [fit] Questions
@@ -800,4 +1038,4 @@ Climate change is real
 - [daniel.feldroy.com/posts/2011-12-story-of-live-noting](https://daniel.feldroy.com/posts/2011-12-story-of-live-noting)
 - [typer.tiangolo.com/](https://typer.tiangolo.com/)
 - [fastapi.tiangolo.com/](fastapi.tiangolo.com/)
-- [meetup.com/django-houston/events/285599646/](https://www.meetup.com/django-houston/events/285599646/)
+- [octopus.energy/careers/join-us/](https://octopus.energy/careers/join-us/)
