@@ -1,3 +1,4 @@
+footer: @pydanny / Octopus Energy :octopus:
 slidenumbers: true
 autoscale: true
 slide-transition: true
@@ -28,6 +29,7 @@ Daniel Roy Greenfeld
 
 [.background-color: #003c80]
 [.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
 
 # [fit] Olá Portugal!
 
@@ -75,6 +77,7 @@ Daniel Roy Greenfeld
 
 [.background-color: #FF0000]
 [.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
 
 # [fit] 😞
 
@@ -146,6 +149,7 @@ Daniel Roy Greenfeld
 
 [.background-color: #FF0000]
 [.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
 
 # NASA Interviewer
 
@@ -157,6 +161,7 @@ Daniel Roy Greenfeld
 
 [.background-color: #FF0000]
 [.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
 
 # NASA Interviewer
 
@@ -639,7 +644,7 @@ Every project should have a README that covers:
 
 - Politicians across the planet?
 
-- People who deny the 99% scientific consensus?
+- Those who deny the 99% scientific consensus?
 
 ---
 
@@ -728,6 +733,7 @@ Every project should have a README that covers:
 
 [.background-color: #FF0000]
 [.header: #FFFFFF]
+[.text: #FFFFFF, Avenir Next Bold]
 
 # [fit] Then you are watching
 
@@ -745,6 +751,7 @@ Every project should have a README that covers:
 
 [.background-color: #FF0000]
 [.header: #FFFFFF]
+[.text: #FFFFFF, Avenir Next Bold]
 
 # [fit] Mastery can't be
 
@@ -819,7 +826,9 @@ A sampling powered by my own stupid laziness and desire to practice
 
 ---
 
-# 2013 onwards: Sharing Django tribal knowledge
+# 2013 onwards:
+
+# Sharing Django tribal knowledge
 
 ![inline](https://www.feldroy.com/_next/image?url=%2Fimages%2FTwo-Scoops-of-Django-3-Alpha-Cover_1080x.jpg&w=3840&q=75)![inline](https://daniel.feldroy.com/images/danny-and-audrey-tsd111.jpg)![inline](https://daniel.feldroy.com/images/two-scoops-django-co-authors-M.jpg)![inline](https://daniel.feldroy.com/images/tsd15-beta.png)
 
@@ -862,11 +871,10 @@ A sampling powered by my own stupid laziness and desire to practice
 
 # [fit] But what if my work was used for evil?
 
-Things built off my open source and books:
-
+- Logistics for nations who oppress their people
+- Commercial ventures to spy on private citizens
 - Site promoting flat earth / no moon landings
 - App to sell wildlife illegally
-- Commercial venture to spy on private citizens
 - Lots more
 
 # :rage:
@@ -977,21 +985,41 @@ Climate change is real
 
 ---
 
-[.build-lists: true]
 [.background-color: #00FF00]
 
 # [fit] Join me in the good fight against climate change
 
 [.column]
 
-- Octopus Energy is hiring
-  - _We have a booth at DjangoCon!_
-- Or go work for a competitor
-- Doesn't matter which green firm "wins", we all benefit
+<br>
+
+Octopus Energy is hiring
+
+_We have a booth at DjangoCon!_
 
 [.column]
 
 ![inline](assets/super_octo.png)
+
+---
+
+[.background-color: #00FF00]
+
+# [fit] Join me in the good fight against climate change
+
+[.column]
+
+- Octopus doesn't work for you?
+- Go work for another decarbonization-focused company
+- Doesn't matter which green firm "wins", we all benefit
+
+[.column]
+
+![inline](https://upload.wikimedia.org/wikipedia/commons/c/c2/Aspiration%2C_Inc._logo.png) Aspiration
+
+![inline](https://pbs.twimg.com/profile_images/1249918556210257921/_LhElJrc_400x400.jpg) Atmos Bank
+
+![inline](assets/heart-aerospace.png) Heart Aerospace
 
 ---
 
