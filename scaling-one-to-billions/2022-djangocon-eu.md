@@ -887,7 +887,9 @@ A sampling powered by my own stupid laziness and desire to practice
 
 ---
 
-# [fit] Questions we should ask of every employer/client
+# [fit] Questions we should ask
+
+# [fit] of every employer/client
 
 ---
 
@@ -1003,15 +1005,33 @@ _We have a booth at DjangoCon!_
 
 ---
 
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit] Octopus doesn't work for you?
+
+- Wrong country
+- Wrong skills
+- Don't like eight legged mascots
+
+---
+
+[.background-color: #ecd540]
+
+# [fit] That's Okay
+
+---
+
+![inline](assets/programming-supertpowers.png)
+
+---
+
 [.background-color: #00FF00]
 
-# [fit] Join me in the good fight against climate change
+# [fit] Work for the competition
 
-[.column]
-
-- Octopus doesn't work for you?
-- Go work for another decarbonization-focused company
-- Doesn't matter which green firm "wins", we all benefit
+## Doesn't matter which green firm "wins", we all benefit
 
 [.column]
 
@@ -1020,6 +1040,28 @@ _We have a booth at DjangoCon!_
 ![inline](https://pbs.twimg.com/profile_images/1249918556210257921/_LhElJrc_400x400.jpg) Atmos Bank
 
 ![inline](assets/heart-aerospace.png) Heart Aerospace
+
+---
+
+# About Me
+
+[.column]
+
+Daniel Roy Greenfeld
+
+Director of Engineering USA
+
+Author, Coder, Leader
+
+Husband of Audrey Roy Greenfeld
+
+Father
+
+Superhero saving the planet
+
+[.column]
+
+![fit](assets/facebook-avatar.jpg)
 
 ---
 
