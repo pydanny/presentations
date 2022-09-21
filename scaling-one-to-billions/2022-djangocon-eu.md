@@ -533,6 +533,12 @@ Me back in the day:
 
 ---
 
+[.background-color: #00FF00]
+
+# [fit] Write Tests!
+
+---
+
 ### I'm lazy
 
 ## Don't wanna debug code when I had it working before
@@ -1049,7 +1055,7 @@ _We have a booth at DjangoCon!_
 
 Daniel Roy Greenfeld
 
-Director of Engineering USA
+Director of Engineering USA @ Octopus Energy
 
 Author, Coder, Leader
 
