@@ -7,7 +7,7 @@ slide-transition: true
 
 # [fit] Web Framework Battle
 
-Daniel Roy Greenfeld
+## Daniel Roy Greenfeld
 
 ---
 
@@ -15,7 +15,7 @@ Daniel Roy Greenfeld
 
 # [fit] Web Framework Battle
 
-Daniel Roy Greenfeld
+## Daniel Roy Greenfeld
 
 ---
 
@@ -25,13 +25,21 @@ Daniel Roy Greenfeld
 
 ---
 
+# [fit] About this talk
+
+- I'm going to compare some Python web frameworks
+- I'm going to compare them in ways that make sense for me
+- My preferences may not be your preferences
+
+---
+
 # What frameworks I'm covering
 
 - Django
 - FastAPI
 - Flask/Quart
 
-What I like to call "the big three"
+# [fit] The "big three"
 
 ---
 
@@ -83,35 +91,63 @@ What I like to call "the big three"
 
 ---
 
-# The Big Three
+# [fit] The Big Three
 
-- Django
-- FastAPI
-- Flask/Quart
+# Django
+
+# FastAPI
+
+# Flask/Quart
+
+---
+
+# [fit] The elephant in the room
 
 ---
 
 # [fit] My bias
 
----
-
 # [fit] Is not what you expect
 
 ---
 
-# [fit] Yes, I've written a lot about Django
+# [fit] Yes, I've written a lot about
+
+# [fit] Django
+
+---
+
+# [fit] ...but I'm pydanny
+
+# [fit] Not "Django Danny"
 
 ---
 
 # [fit] I've used all three frameworks
 
----
-
-# [fit] I know enough about Django to know what I don't like about it
+# [fit] in production
 
 ---
 
-# Points of comparison
+# [fit] I like all three frameworks
+
+---
+
+# [fit] I know enough about
+
+# [fit] Django
+
+# [fit] to explain what I don't like about it
+
+---
+
+# [fit] Ready?
+
+Let's do it!
+
+---
+
+# Popular comparisons
 
 - Ease of use
 - Performance
@@ -121,7 +157,116 @@ What I like to call "the big three"
 - Ecosystem
 - Features
 - Code quality
-- Developer experience
-- Async support
+- Deployment
+- Jobs
 
 ---
+
+# [fit] Things I really care about
+
+- Explicitness
+- Type hints as a superpower
+- Gaurdrails
+- Developer experience
+- Async support
+- Sweet spots (where a framework excels)
+
+---
+
+# [fit] Framework sweet spots
+
+- Django for projects that don't need an API (views with templates)
+- FastAPI for anything that needs an API
+- Flask for quick-and-dirty projects
+
+---
+
+# What I hate about Django
+
+- Sucks for API building
+
+  - DRF is hard
+  - Graphene isn't any better
+  - django-ninja is a bit better
+
+- Sucks for async
+
+  - django-channels is amazing
+  - But using it isn't easy
+  - async django is a miracle of engineering, but it's not easy to use
+
+---
+
+# What I hate about Flask
+
+- Fastest to get started
+
+  - Who needs a request parameter anyway?
+
+- No gaurdrails
+
+  - No type hints
+
+- Sucks for API building
+
+  - Flask-RESTful is hard
+  - Flask-GraphQL is hard
+  - Flask-apispec is hard
+
+- Implicitness
+
+  - requests
+  - global object
+
+---
+
+# What I hate about FastAPI
+
+---
+
+# [fit] Performance
+
+(although I don't care much about this)
+
+- FastAPI wins the game of metrics
+- Flask is fast too
+- Django is slow (but runs fast as a single-module app w/no middleware)
+
+---
+
+# [fit] Data validation
+
+- Django forms/ORM
+- FastAPI built-in plus pydantic
+- Flask - whatever you want
+
+---
+
+# [fit] Async
+
+- Django - channels
+- FastAPI - async
+- Flask/Quart
+
+---
+
+# Documentation
+
+- Django and FastAPI are awesome
+- Flask is subjective
+
+---
+
+# [fit] API Documentation
+
+- Django via DRF / Django-Ninja
+- FastAPI
+- Flask via Flask-apispec
+
+---
+
+# [fit]
+
+---
+
+# [fit] Community
