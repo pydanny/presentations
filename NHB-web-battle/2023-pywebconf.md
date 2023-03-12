@@ -463,9 +463,11 @@ def hello():
 
 ---
 
-[.background-color: #ecd540]
+[.header: #000000, text-scale(2.0)]
 
-# [fit] Performance
+# **Speed**
+
+![](assets/speed-octo.png)
 
 ---
 
@@ -486,7 +488,7 @@ So many variables that it's easy to get lost in the weeds.
 
 ---
 
-# Performance Summary
+# Speed Summary
 
 Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
@@ -503,6 +505,7 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 - Fastest JSON serialization
 - Fastest async
+- Will get a boost with advent of pydantic 2.0
 
 [.column]
 
@@ -514,15 +517,17 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 [.background-color: #00FF00]
 
-# Performance
+# Speed
 
 # [fit] Winner: Flask & FastAPI
 
 ---
 
-[.background-color: #ecd540]
+[.header: #000000, text-scale(2.0)]
 
-# [fit] Async Support
+# **Async Support**
+
+![](assets/async-octo.png)
 
 ---
 
@@ -577,13 +582,15 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 ---
 
-[.background-color: #ecd540]
+[.header: #000000, text-scale(2.0)]
 
-# [fit] Persistence
+# **Databases**
+
+![](assets/databases-octo.png)
 
 ---
 
-# Persistence engines I like to use
+# Databases I like to use
 
 - Relational Databases (SQL for short)
 - DynamoDB, specifically single-table designs
@@ -591,7 +598,7 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 ---
 
-# Persistence
+# Databases
 
 [.column]
 
@@ -622,7 +629,7 @@ Flask :+1:
 
 [.background-color: #00FF00]
 
-# Persistence
+# Databases
 
 # [fit] Winner: Tie
 
