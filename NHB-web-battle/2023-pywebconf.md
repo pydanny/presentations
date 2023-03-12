@@ -45,7 +45,7 @@ slide-transition: true
 
 ---
 
-# Quick Comparison of my Python Web work
+# Quick review of my Python web work
 
 [.column]
 
@@ -279,7 +279,7 @@ urlpatterns = [
 
 [.column]
 
-Flask :+1:
+Flask :+1: :+1:
 
 - Easy to get started
 - Flask's [quickstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/) is amazing
@@ -499,6 +499,18 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 # Async Support
 
+## Why it matters
+
+- Websockets
+- Blocking I/O
+  - File streaming
+  - Slow APIs
+  - Tarpits
+
+---
+
+# Async Support
+
 [.column]
 
 FastAPI :+1:
@@ -554,10 +566,9 @@ Django :+1: :-1:
 
 [.column]
 
-FastAPI :+1: :+1:
+FastAPI :+1:
 
 - Use whatever you want
-- But SQL databases are a first class citizen
 
 [.column]
 
@@ -572,4 +583,151 @@ Django :+1:
 - Designed for SQL databases
 - Key/value stores used for caching
 - Universality of SQL empowers the package ecosystem
-- [Not using SQL is a mistake](https://daniel.feldroy.com/posts/when-to-use-mongodb-with-django)
+- [Using No-SQL is always a mistake](https://daniel.feldroy.com/posts/when-to-use-mongodb-with-django)
+
+---
+
+[.background-color: #00FF00]
+
+# Persistence
+
+# [fit] Winner: ???
+
+---
+
+[.background-color: #ecd540]
+
+# [fit] Sweet Spots
+
+---
+
+# Sweet Spots
+
+[.column]
+
+FastAPI :+1: :+1:
+
+- REST/JSON APIs
+- Small projects
+- Async
+- Elegant design
+
+[.column]
+
+Flask
+
+- Small projects
+
+[.column]
+
+Django :+1:
+
+- Large projects
+- Third-party packages
+- Django Templates + HTMX
+
+---
+
+[.background-color: #00FF00]
+
+# Sweet Spots
+
+# [fit] Winner: FastAPI
+
+---
+
+[.background-color: #ecd540]
+
+# [fit] Conclusion
+
+# (what do I use on new projects?)
+
+---
+
+# Django or FastAPI or Flask?
+
+---
+
+# FastAPI
+
+- Sweet design that's fun to use
+- Async support from the beginning
+- Persistence is up to you
+- Small projects
+- I have the architecture experience to use it on large projects
+
+---
+
+[.background-color: #00FF00]
+
+# Grand Winner
+
+# [fit] Winner: FastAPI
+
+---
+
+[.background-color: #00FF00]
+
+# [fit] Join me in the good fight against climate change
+
+[.column]
+
+<br>
+
+Octopus Energy Group is hiring
+
+[octopus.energy/careers](https://octopus.energy/careers/join-us/#/)
+
+[.column]
+
+![inline](assets/super_octo.png)
+
+---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit] Octopus doesn't work for you?
+
+- Wrong country
+- Wrong skills
+- Don't like eight legged mascots
+
+---
+
+[.background-color: #ecd540]
+
+# [fit] That's Okay
+
+---
+
+[.background-color: #00FF00]
+
+# [fit] Work for the competition
+
+## Doesn't matter which green firm "wins"
+
+# [climatebase.org](https://climatebase.org/)
+
+---
+
+# About Me
+
+[.column]
+
+Daniel Roy Greenfeld
+
+Code @ Kraken Technologies
+
+Author, Coder, Leader
+
+Husband of Audrey Roy Greenfeld
+
+Father
+
+Superhero saving the planet
+
+[.column]
+
+![fit](assets/facebook-avatar.jpg)
