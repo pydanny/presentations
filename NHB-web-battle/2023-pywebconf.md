@@ -17,11 +17,17 @@ slide-transition: true
 
 ## Daniel Roy Greenfeld
 
----
+<!-- ---
 
 # [fit] Hello Python Web Conf!
 
-![inline](https://2023.pythonwebconf.com/python-web-conference-2023/@@images/logo_image)
+![inline](https://2023.pythonwebconf.com/python-web-conference-2023/@@images/logo_image) -->
+
+---
+
+# Hello Django London!
+
+![inline](assets/django-london.png)
 
 ---
 
@@ -39,9 +45,19 @@ slide-transition: true
 
 ---
 
-# [fit] Many people think of me as
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+[.text: #FFFFFF, Avenir Next Bold]
+
+# [fit]My nickname isn't
 
 # [fit] "Django Daniel"
+
+---
+
+# [fit] My nickname is
+
+# [fit] "pydanny"
 
 ---
 
@@ -76,30 +92,19 @@ slide-transition: true
 
 ---
 
-# [fit] I tend to write more about
+# [fit] **I tend to write more about**
 
-# [fit] what I'm being paid to work on
+# [fit] **what I'm being paid to work on**
+
+![](assets/money.png)
 
 ---
 
 # Yes, I've written a lot about Django
 
 - After 14 years I know the pain points of Django
-- I know more about the virtues of competitors than flaws
-
----
-
-# [fit] My nickname is
-
-# [fit] "pydanny"
-
-# [fit] Not "Django Daniel"
-
----
-
-# [fit] Ready?
-
-# Let's dive in
+- I've used Flask for 12 years
+- I've used FastAPI for 3 years
 
 ---
 
@@ -137,13 +142,29 @@ Popularity and usage is at least an order of magnitude higher than other python 
 
 ---
 
-# [fit] Quick note
+# [fit] I like all three frameworks
+
+[.column]
+
+# Django is awesome
+
+# FastAPI is awesome
+
+# Flask is awesome
+
+[.column]
+
+You can win with any of these frameworks.
+
+Mad respect to the authors and contributors.
+
+# [fit] :sparkling_heart:
 
 ---
 
-[.background-color: #00FF00]
+# [fit] Ready?
 
-# [fit] All three frameworks are awesome
+# Let's dive in
 
 ---
 
@@ -635,9 +656,11 @@ Flask :+1:
 
 ---
 
-[.background-color: #ecd540]
+[.header: #000000, text-scale(2.0)]
 
-# [fit] Sweet Spots
+# **Sweet Spots**
+
+![](assets/candy.png)
 
 ---
 
@@ -684,7 +707,7 @@ Flask :+1:
 
 ---
 
-# [fit] I enjoy all three frameworks
+# [fit] I like all three frameworks
 
 [.column]
 
@@ -701,6 +724,10 @@ You can win with any of these frameworks.
 Mad respect to the authors and contributors.
 
 # [fit] :sparkling_heart:
+
+---
+
+# There can only be one!
 
 ---
 
@@ -722,7 +749,7 @@ Mad respect to the authors and contributors.
 
 # [fit] Winner: FastAPI
 
----
+<!-- ---
 
 # FastAPI
 
@@ -731,9 +758,9 @@ Mad respect to the authors and contributors.
 - Persistence is up to you
 - Fast
 - Great for small projects
-- I have the architecture experience to use it on large projects
+- I have the architecture experience to use it on large projects -->
 
----
+<!-- ---
 
 [.background-color: #00FF00]
 
@@ -778,6 +805,8 @@ Octopus Energy Group is hiring
 ## Doesn't matter which green firm "wins"
 
 # [climatebase.org](https://climatebase.org/)
+
+--- -->
 
 ---
 
