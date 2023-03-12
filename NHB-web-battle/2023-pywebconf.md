@@ -55,6 +55,8 @@ slide-transition: true
 
 ---
 
+[.background-color: #ecd540]
+
 # [fit] My nickname is
 
 # [fit] "pydanny"
@@ -556,11 +558,15 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 ## Why it matters
 
+[.column]
+
 - Websockets
 - Blocking I/O
   - File streaming
   - Slow APIs
   - Tarpits
+
+[.column]
 
 ---
 
@@ -728,6 +734,8 @@ Mad respect to the authors and contributors.
 ---
 
 # There can only be one!
+
+![inline](assets/highlander.png)
 
 ---
 
