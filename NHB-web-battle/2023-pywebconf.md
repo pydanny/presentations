@@ -1,6 +1,6 @@
+autoscale: true
 footer: @pydanny / Kraken Technology :octopus:
 slidenumbers: true
-autoscale: true
 slide-transition: true
 
 # [fit] No Holds Barred
@@ -63,7 +63,7 @@ slide-transition: true
 
 - 3 FastAPI Articles: [daniel.feldroy.com/tags/fastapi](https://daniel.feldroy.com/tags/fastapi)
 - 5 Flask Articles: [https://daniel.feldroy.com/tags/flask](daniel.feldroy.com/tags/flask)
-- 8 Flask Articles: [https://daniel.feldroy.com/tags/pyramid](daniel.feldroy.com/tags/pyramid)
+- 8 Pyramid Articles: [https://daniel.feldroy.com/tags/pyramid](daniel.feldroy.com/tags/pyramid)
 - About 15 production projects
 
 [.column]
@@ -103,13 +103,53 @@ slide-transition: true
 
 ---
 
-# [fit] Quick Framework Overview
+# [fit] Which frameworks am I covering?
+
+The ones I considered
+
+[.column]
 
 - Django
 - FastAPI
 - Flask
 - Pyramid
 - Tornado
+
+[.column]
+
+---
+
+# [fit] Which frameworks am I covering?
+
+The ones I chose
+
+[.column]
+
+- Django :white_check_mark:
+- FastAPI :white_check_mark:
+- Flask :white_check_mark:
+- Pyramid
+- Tornado
+
+[.column]
+
+Popularity and usage is at least an order of magnitude higher than other python frameworks.
+
+---
+
+# [fit] Quick note
+
+---
+
+[.background-color: #00FF00]
+
+# [fit] All three frameworks are awesome
+
+---
+
+[.background-color: #ecd540]
+
+# Quick overview of the frameworks
 
 ---
 
@@ -120,8 +160,7 @@ slide-transition: true
   - Web-serving, databases, HTML generation
 - Bundled with ORM & form validation
 - Admin tool driven by ORM & form systems
-- Evolving toward Async
-- Sweet spots: HTML sites with SQL backend, package ecosystem, popularity
+- Larger than the other frameworks
 
 ---
 
@@ -132,7 +171,6 @@ slide-transition: true
   - Data validation: tightly integrated with pydantic
 - Uses type annotations as a superpower
 - Async from the start
-- Sweet spots: REST/JSON APIs, speed, popularity
 
 ---
 
@@ -141,41 +179,7 @@ slide-transition: true
 - Released: April 1, 2010
 - Microframework
   - Minimal core, lots of extensions
-- Very popular with vendors for tutorials
-- Async, speed it up by using Quart
-- Sweet spots: Simplicity, flexibility, popularity
-
----
-
-# Pyramid
-
-- Released: 2008
-- Microframework
-  - Minimal core, lots of extensions
-- No globals means no magic
-- Sweet spots: Flexibility, explicitness
-
----
-
-# Tornado
-
-- Released: 2009
-- Microframework
-- Async from the start
-- Backbone of Jupyter notebook
-- Sweet spots: Speed, async, backbone of Juptyer notebook
-
----
-
-[.background-color: #ecd540]
-
-# [fit] Comparing the Big Three
-
-- Django
-- FastAPI
-- Flask
-
-Popularity and usage is at least an order of magnitude higher than other python frameworks.
+- Very popular with SaaS vendors for tutorials
 
 ---
 
@@ -211,27 +215,30 @@ Popularity and usage is at least an order of magnitude higher than other python 
 
 [.column]
 
-Flask is easy :+1:
+# Django :-1:
 
 ```python
-# app.py
-# Flask can also return JSON by returning dict
-from flask import Flask
+# urls.py
+# Not including a bunch of setup
+# No one builds Django projects this way
+from django.urls import path
+from django.views.generic import View
 
-app = Flask(__name__)
+def index(request):
+    return "Index Page"
 
-@app.route('/')
-def index():
-    return 'Index Page'
+def hello(request):
+    return "Hello, World"
 
-@app.route('/hello')
-def hello():
-    return 'Hello, World'
+urlpatterns = [
+    path('', index, name='home'),
+    path('/hello', hello, name='home'),
+]
 ```
 
 [.column]
 
-FastAPI is easy :+1:
+# **FastAPI** :+1:
 
 ```python
 # app.py
@@ -250,25 +257,23 @@ def hello():
 
 [.column]
 
-Django is harder :-1:
+# **Flask** :+1:
 
 ```python
-# urls.py
-# Not including a bunch of setup
-# Also, no one builds Django projects this way
-from django.urls import path
-from django.views.generic import View
+# app.py
+# Flask can also return
+# JSON by returning dict
+from flask import Flask
 
-def index(request):
-    return "Index Page"
+app = Flask(__name__)
 
-def hello(request):
-    return "Hello, World"
+@app.route('/')
+def index():
+    return 'Index Page'
 
-urlpatterns = [
-    path('', index, name='home'),
-    path('/hello', hello, name='home'),
-]
+@app.route('/hello')
+def hello():
+    return 'Hello, World'
 ```
 
 ---
@@ -279,25 +284,25 @@ urlpatterns = [
 
 [.column]
 
-Flask :+1: :+1:
+# Django :-1:
 
-- Easy to get started
-- Flask's [quickstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/) is amazing
-- Quickstart covers everything many small projects need
+- No such thing as a quickstart in Django
+- Tutorial is good, just takes time
 
 [.column]
 
-FastAPI :+1:
+# FastAPI :+1:
 
 - Easy to get started
 - [Quickstart](https://fastapi.tiangolo.com/tutorial/first-steps/) focuses on features
 
 [.column]
 
-Django :-1:
+# **Flask** :+1: :+1:
 
-- No such thing as a quickstart in Django
-- Tutorial is good, just takes time
+- Easy to get started
+- Flask's [quickstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/) is amazing
+- Quickstart covers everything many small projects need
 
 ---
 
@@ -317,16 +322,7 @@ Django :-1:
 
 [.column]
 
-FastAPI :+1: :+1:
-
-- Comes with built-in validation
-- Powered by the pydantic library, which is awesome
-- Type annotations makes it intuitive
-- Forces use of validation
-
-[.column]
-
-Django :+1:
+# Django :+1:
 
 - Comes with built-in validation
 - Powered by Django's Forms and ORM
@@ -335,7 +331,16 @@ Django :+1:
 
 [.column]
 
-Flask :-1:
+# **FastAPI** :+1: :+1:
+
+- Comes with built-in validation
+- Powered by the pydantic library, which is awesome
+- Type annotations makes it intuitive
+- Forces use of validation
+
+[.column]
+
+# Flask :-1:
 
 - No built-in validation
 - Documentation doesn't encourage data validation
@@ -359,7 +364,15 @@ Flask :-1:
 
 [.column]
 
-FastAPI :+1: :+1:
+# Django :+1: :-1:
+
+- Admin tool is great for small projects with SQL persistence
+- Overkill for projects without SQL persistence
+- Single file apps require advanced knowledge of Django
+
+[.column]
+
+# FastAPI :+1: :+1:
 
 - Light and easy to get started
 - One file apps are easy to build
@@ -369,19 +382,11 @@ FastAPI :+1: :+1:
 
 [.column]
 
-Flask :+1:
+# Flask :+1:
 
 - Light and easy to get started
 - One file apps are easy to build
 - Flexibility on persistence is a virtue
-
-[.column]
-
-Django :+1: :-1:
-
-- Admin tool is great for small projects with SQL persistence
-- Overkill for projects without SQL persistence
-- Single file apps require advanced knowledge of Django
 
 ---
 
@@ -401,7 +406,7 @@ Django :+1: :-1:
 
 [.column]
 
-Django :+1: :+1:
+# **Django** :+1: :+1:
 
 - "app" structure forced by Framework
 - Described in core tutorial
@@ -411,7 +416,7 @@ Django :+1: :+1:
 
 [.column]
 
-Flask :+1:
+# Flask :+1:
 
 - Core docs
 - Each blueprint supports a specific feature
@@ -420,7 +425,7 @@ Flask :+1:
 
 [.column]
 
-FastAPI :+1: :-1:
+## FastAPI :+1: :-1:
 
 - No guidance provided
 - Framework design encourages separation of concerns
@@ -437,7 +442,14 @@ FastAPI :+1: :-1:
 
 ---
 
-# TODO: Table with summaries
+# Developer Experience Summary
+
+| Category         | **Django**         | **FastAPI**        | **Flask**          |
+| ---------------- | ------------------ | ------------------ | ------------------ |
+| Ease of learning |                    |                    | :white_check_mark: |
+| Data validation  |                    | :white_check_mark: |                    |
+| Small projects   |                    | :white_check_mark: |                    |
+| Large projects   | :white_check_mark: |                    |                    |
 
 ---
 
@@ -478,8 +490,25 @@ So many variables that it's easy to get lost in the weeds.
 
 Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
-1. Flask or FastAPI depending on the conditions :+1:
-2. Django :-1:
+[.column]
+
+# Django :-1:
+
+- Slowest of frameworks
+- Removing critical components to increase speed is a fool's errand
+
+[.column]
+
+# **FastAPI** :+1:
+
+- Fastest JSON serialization
+- Fastest async
+
+[.column]
+
+# **Flask** :+1:
+
+- Faster with templates & queries
 
 ---
 
@@ -513,7 +542,17 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 [.column]
 
-FastAPI :+1:
+# Django :+1: :-1:
+
+- Herculean effort to bring async support to Django
+- Not for beginners
+- [Docs](https://docs.djangoproject.com/en/4.2/topics/async/) cover the fundamanetals, but not much else
+- Nifty `sync_to_async()` decorator
+- Much of ecosystem is synchronous
+
+[.column]
+
+# **FastAPI** :+1:
 
 - Designed from the outset to support async
 - All of the framework is async by default
@@ -521,22 +560,12 @@ FastAPI :+1:
 
 [.column]
 
-Flask :+1: :-1:
+# Flask :+1: :-1:
 
 - Slow, hence [recommendation](https://flask.palletsprojects.com/en/2.2.x/async-await/#when-to-use-quart-instead) to use Quart instead
 - Modern Flask supports async
 - [Light documentation](https://flask.palletsprojects.com/en/2.2.x/async-await/)
 - Much of Flask and ecosystem is synchronous
-
-[.column]
-
-Django :+1: :-1:
-
-- Herculean effort to bring async support to Django
-- Not for beginners
-- [Docs](https://docs.djangoproject.com/en/4.2/topics/async/) cover the fundamanetals, but not much else
-- Nifty `sync_to_async()` decorator
-- Much of ecosystem is synchronous
 
 ---
 
@@ -566,18 +595,6 @@ Django :+1: :-1:
 
 [.column]
 
-FastAPI :+1:
-
-- Use whatever you want
-
-[.column]
-
-Flask :+1:
-
-- Use whatever you want
-
-[.column]
-
 Django :+1:
 
 - Designed for SQL databases
@@ -585,13 +602,29 @@ Django :+1:
 - Universality of SQL empowers the package ecosystem
 - [Using No-SQL is always a mistake](https://daniel.feldroy.com/posts/when-to-use-mongodb-with-django)
 
+[.column]
+
+FastAPI :+1:
+
+- Use whatever you want
+
+- Or skip the database entirely
+
+[.column]
+
+Flask :+1:
+
+- Use whatever you want
+
+- Or skip the database entirely
+
 ---
 
 [.background-color: #00FF00]
 
 # Persistence
 
-# [fit] Winner: ???
+# [fit] Winner: Tie
 
 ---
 
@@ -605,7 +638,15 @@ Django :+1:
 
 [.column]
 
-FastAPI :+1: :+1:
+# Django :+1:
+
+- Large projects
+- Third-party packages
+- Django Templates + HTMX
+
+[.column]
+
+# **FastAPI** :+1: :+1:
 
 - REST/JSON APIs
 - Small projects
@@ -614,17 +655,9 @@ FastAPI :+1: :+1:
 
 [.column]
 
-Flask
+# Flask
 
 - Small projects
-
-[.column]
-
-Django :+1:
-
-- Large projects
-- Third-party packages
-- Django Templates + HTMX
 
 ---
 
@@ -644,17 +677,35 @@ Django :+1:
 
 ---
 
-# Django or FastAPI or Flask?
+# [fit] I enjoy all three frameworks
+
+[.column]
+
+# Django is awesome
+
+# FastAPI is awesome
+
+# Flask is awesome
+
+[.column]
+
+You can win with any of these frameworks.
+
+Mad respect to the authors and contributors.
+
+# [fit] :sparkling_heart:
 
 ---
 
-# FastAPI
+# Django or FastAPI or Flask?
 
-- Sweet design that's fun to use
-- Async support from the beginning
-- Persistence is up to you
-- Small projects
-- I have the architecture experience to use it on large projects
+| Category             | **Django**         | **FastAPI**        | **Flask**          |
+| -------------------- | ------------------ | ------------------ | ------------------ |
+| Developer Experience |                    | :white_check_mark: |                    |
+| Performance          |                    | :white_check_mark: | :white_check_mark: |
+| Async Support        |                    | :white_check_mark: |                    |
+| Databases            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Sweet Spots          |                    | :white_check_mark: |                    |
 
 ---
 
@@ -663,6 +714,17 @@ Django :+1:
 # Grand Winner
 
 # [fit] Winner: FastAPI
+
+---
+
+# FastAPI
+
+- Sweet design that's fun to use
+- Async support from the beginning
+- Persistence is up to you
+- Fast
+- Great for small projects
+- I have the architecture experience to use it on large projects
 
 ---
 
