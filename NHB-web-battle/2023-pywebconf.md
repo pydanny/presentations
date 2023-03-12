@@ -194,6 +194,8 @@ Popularity and usage is at least an order of magnitude higher than other python 
 
 ---
 
+[.background-color: #ecd540]
+
 # [fit] Developer Experience
 
 - How easy is it to get started?
@@ -357,7 +359,17 @@ Flask :-1:
 
 [.column]
 
-Flask and FastPI :+1:
+FastAPI :+1: :+1:
+
+- Light and easy to get started
+- One file apps are easy to build
+- Flexibility on persistence is a virtue
+- Built-in validation
+- Built-in REST API is awesome
+
+[.column]
+
+Flask :+1:
 
 - Light and easy to get started
 - One file apps are easy to build
@@ -369,6 +381,7 @@ Django :+1: :-1:
 
 - Admin tool is great for small projects with SQL persistence
 - Overkill for projects without SQL persistence
+- Single file apps require advanced knowledge of Django
 
 ---
 
@@ -378,7 +391,7 @@ Django :+1: :-1:
 
 ## Small projects
 
-# [fit] Winner: FastAPI & Flask
+# [fit] Winner: FastAPI
 
 ---
 
@@ -405,9 +418,9 @@ Flask :+1:
 - Each blueprint has its own models, views, forms, etc.
 - In my experience, rarely used
 
-[.column] :+1: :-1:
+[.column]
 
-FastAPI
+FastAPI :+1: :-1:
 
 - No guidance provided
 - Framework design encourages separation of concerns
@@ -424,4 +437,139 @@ FastAPI
 
 ---
 
+# TODO: Table with summaries
+
+---
+
+[.background-color: #00FF00]
+
 # Developer Experience
+
+## Composite
+
+# [fit] Winner: FastAPI
+
+---
+
+[.background-color: #ecd540]
+
+# [fit] Performance
+
+---
+
+# About performance metrics
+
+- Often the database is the bottleneck real projects face
+- Indexing and caching are often the best ways to improve performance rather than changing the framework
+
+---
+
+# "Lies, Damn Lies and Statistics"
+
+So many variables that it's easy to get lost in the weeds.
+
+1. FastAPI is really fast with JSON serialization
+2. Flask tends to have better composite scores
+3. Django run as a single file app without middleware, context processors, etc is comparable to Flask and FastAPI
+
+---
+
+# Performance Summary
+
+Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
+
+1. Flask or FastAPI depending on the conditions :+1:
+2. Django :-1:
+
+---
+
+[.background-color: #00FF00]
+
+# Performance
+
+# [fit] Winner: Flask & FastAPI
+
+---
+
+[.background-color: #ecd540]
+
+# [fit] Async Support
+
+---
+
+# Async Support
+
+[.column]
+
+FastAPI :+1:
+
+- Designed from the outset to support async
+- All of the framework is async by default
+- [Good documentation](https://fastapi.tiangolo.com/async/)
+
+[.column]
+
+Flask :+1: :-1:
+
+- Slow, hence [recommendation](https://flask.palletsprojects.com/en/2.2.x/async-await/#when-to-use-quart-instead) to use Quart instead
+- Modern Flask supports async
+- [Light documentation](https://flask.palletsprojects.com/en/2.2.x/async-await/)
+- Much of Flask and ecosystem is synchronous
+
+[.column]
+
+Django :+1: :-1:
+
+- Herculean effort to bring async support to Django
+- Not for beginners
+- [Docs](https://docs.djangoproject.com/en/4.2/topics/async/) cover the fundamanetals, but not much else
+- Nifty `sync_to_async()` decorator
+- Much of ecosystem is synchronous
+
+---
+
+[.background-color: #00FF00]
+
+# Async
+
+# [fit] Winner: FastAPI
+
+---
+
+[.background-color: #ecd540]
+
+# [fit] Persistence
+
+---
+
+# Persistence engines I like to use
+
+- Relational Databases (SQL for short)
+- DynamoDB, specifically single-table designs
+- Firebase, especially in hackathons
+
+---
+
+# Persistence
+
+[.column]
+
+FastAPI :+1: :+1:
+
+- Use whatever you want
+- But SQL databases are a first class citizen
+
+[.column]
+
+Flask :+1:
+
+- Use whatever you want
+
+[.column]
+
+Django :+1:
+
+- Designed for SQL databases
+- Key/value stores used for caching
+- Universality of SQL empowers the package ecosystem
+- [Not using SQL is a mistake](https://daniel.feldroy.com/posts/when-to-use-mongodb-with-django)
