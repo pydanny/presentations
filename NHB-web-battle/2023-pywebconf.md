@@ -757,22 +757,41 @@ Mad respect to the authors and contributors.
 
 # [fit] Winner: FastAPI
 
-<!-- ---
+---
 
-# FastAPI
+# About Me
 
-- Sweet design that's fun to use
-- Async support from the beginning
-- Persistence is up to you
-- Fast
-- Great for small projects
-- I have the architecture experience to use it on large projects -->
+[.column]
 
-<!-- ---
+Daniel Roy Greenfeld
+
+Code @ Kraken Technologies
+
+Author, Coder, Leader
+
+Husband of Audrey Roy Greenfeld
+
+Father
+
+Superhero saving the planet
+
+[.column]
+
+![fit](assets/facebook-avatar.jpg)
+
+---
+
+# Looking for work that
+
+![inline](assets/future-office.png)
+
+# makes a difference?
+
+---
 
 [.background-color: #00FF00]
 
-# [fit] Join me in the good fight against climate change
+# [fit] Join me in the battle against climate change
 
 [.column]
 
@@ -787,6 +806,10 @@ Octopus Energy Group is hiring
 ![inline](assets/super_octo.png)
 
 ---
+
+# [fit] Questions?
+
+<!-- ---
 
 [.background-color: #FF0000]
 [.header: #FFFFFF, Avenir Next Bold]
@@ -812,28 +835,4 @@ Octopus Energy Group is hiring
 
 ## Doesn't matter which green firm "wins"
 
-# [climatebase.org](https://climatebase.org/)
-
---- -->
-
----
-
-# About Me
-
-[.column]
-
-Daniel Roy Greenfeld
-
-Code @ Kraken Technologies
-
-Author, Coder, Leader
-
-Husband of Audrey Roy Greenfeld
-
-Father
-
-Superhero saving the planet
-
-[.column]
-
-![fit](assets/facebook-avatar.jpg)
+# [fit] [climatebase.org](https://climatebase.org/) -->
