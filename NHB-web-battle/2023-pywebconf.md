@@ -112,7 +112,7 @@ slide-transition: true
 - I've used Flask for 12 years
 - I've used FastAPI for 3 years
 - I did Zope/Plone for 4 years @ NASA :rocket:
-- I've used Pyramind off-and-on for 17 years
+- I've used Pyramid off-and-on for 17 years
 - I used Tornado a few times in 2014
 
 ---
