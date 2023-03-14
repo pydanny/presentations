@@ -3,6 +3,8 @@ footer: @pydanny / Kraken Technology :octopus:
 slidenumbers: true
 slide-transition: true
 
+![](assets/cover-fight.png)
+
 # [fit] No Holds Barred
 
 # [fit] Web Framework Battle
@@ -10,6 +12,8 @@ slide-transition: true
 ## Daniel Roy Greenfeld
 
 ---
+
+![](assets/cover-fight.png)
 
 # [fit] No Holds Barred
 
@@ -88,9 +92,9 @@ slide-transition: true
 
 # Zope/Plone
 
-- 2 production projects
 - 74 Plone articles: [daniel.feldroy.com/tags/plone](https://daniel.feldroy.com/tags/plone)
 - 38 Zope articles: [daniel.feldroy.com/tags/zope](https://daniel.feldroy.com/tags/zope)
+- 2 production projects
 
 ---
 
@@ -107,6 +111,9 @@ slide-transition: true
 - After 14 years I know the pain points of Django
 - I've used Flask for 12 years
 - I've used FastAPI for 3 years
+- I did Zope/Plone for 4 years @ NASA :rocket:
+- I've used Pyramind off-and-on for 17 years
+- I used Tornado a few times in 2014
 
 ---
 
@@ -199,7 +206,7 @@ Mad respect to the authors and contributors.
 
 # Flask
 
-- Released: April 1, 2010z
+- Released: April 1, 2010
 - Microframework
   - Minimal core, lots of extensions
 - Very popular with SaaS vendors for tutorials
@@ -364,7 +371,7 @@ def hello():
 
 [.column]
 
-# **Django**
+# **Django** :+1:
 
 ```python
 from django import forms
@@ -401,7 +408,7 @@ class CheeseCreateView(LoginRequiredMixin, CreateView):
 
 [.column]
 
-# **FastAPI**
+# **FastAPI** :+1:
 
 ```python
 from fastapi import FastAPI
@@ -429,7 +436,7 @@ async def update_item(cheese: Cheese):
 
 [.column]
 
-# **Flask**
+# **Flask** :-1:
 
 - No built-in validation
 - flask-wtf is awesome, but no mention in core docs
@@ -488,6 +495,8 @@ async def update_item(cheese: Cheese):
 ---
 
 # Developer Experience
+
+## **Small projects**
 
 [.column]
 
@@ -592,7 +601,7 @@ async def update_item(cheese: Cheese):
 
 # Developer Experience
 
-## Composite
+## Aggregate
 
 # [fit] Winner: FastAPI
 
@@ -749,7 +758,7 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 [.column]
 
-Django :+1:
+# **Django** :+1:
 
 - Designed for SQL databases
 - Key/value stores used for caching
@@ -758,7 +767,7 @@ Django :+1:
 
 [.column]
 
-FastAPI :+1:
+# **FastAPI** :+1:
 
 - Use whatever you want
 
@@ -766,7 +775,7 @@ FastAPI :+1:
 
 [.column]
 
-Flask :+1:
+# **Flask** :+1:
 
 - Use whatever you want
 
@@ -794,9 +803,10 @@ Flask :+1:
 
 [.column]
 
-# Django :+1:
+# Django :+1: :+1:
 
 - Large projects
+- Admin
 - Third-party packages
 - Django Templates + HTMX
 
@@ -821,7 +831,7 @@ Flask :+1:
 
 # Sweet Spots
 
-# [fit] Winner: FastAPI
+# [fit] Winner: Django & FastAPI
 
 ---
 
@@ -867,7 +877,7 @@ Mad respect to the authors and contributors.
 | Performance          |                    | :white_check_mark: | :white_check_mark: |
 | Async Support        |                    | :white_check_mark: |                    |
 | Databases            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Sweet Spots          |                    | :white_check_mark: |                    |
+| Sweet Spots          | :white_check_mark: | :white_check_mark: |                    |
 
 ---
 
