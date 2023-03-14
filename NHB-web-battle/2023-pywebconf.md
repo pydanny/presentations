@@ -366,13 +366,66 @@ def hello():
 
 # **Django**
 
-TODO code example
+```python
+from django import forms
+from django.views.generic import CreateView
+from django.contrib.auth.mixins import (
+    LoginRequiredMixin
+)
+
+from .models import Cheese
+
+
+class CheeseForm(forms.Form):
+    name = forms.CharField(max_length=100)
+    description = forms.CharField(
+        max_length=300,
+        required=False
+    )
+    age = forms.IntegerField(
+        default=0
+        min_value=0,
+        description="Age in months"
+    )
+
+
+class CheeseCreateView(LoginRequiredMixin, CreateView):
+    model = Cheese
+    form_class = CheeseForm
+
+    def form_valid(self, form):
+        form.instance.creator = self.request.user
+        return super().form_valid(form)
+
+```
 
 [.column]
 
-TODO code example
-
 # **FastAPI**
+
+```python
+from fastapi import FastAPI
+from pydantic import BaseModel, Field
+
+app = FastAPI()
+
+
+class Cheese(BaseModel):
+    name: str
+    description: str = Field(
+        default=None,
+        title="The description of the item",
+        max_length=300)
+    age: int = Field(
+        default=0,
+        gt=0,
+        description="Age in months"
+    )
+
+@app.post("/cheeses/")
+async def update_item(cheese: Cheese):
+    return Cheese
+```
 
 [.column]
 
