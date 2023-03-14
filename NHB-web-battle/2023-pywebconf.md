@@ -199,7 +199,7 @@ Mad respect to the authors and contributors.
 
 # Flask
 
-- Released: April 1, 2010
+- Released: April 1, 2010z
 - Microframework
   - Minimal core, lots of extensions
 - Very popular with SaaS vendors for tutorials
@@ -211,24 +211,34 @@ Mad respect to the authors and contributors.
 [.column]
 
 - Developer experience
-- Performance
+- Speed
 - Async support
 
 [.column]
 
-- Persistence
+- Databases
 - Sweet spots
+
+![](assets/points.png)
 
 ---
 
-[.background-color: #ecd540]
+![](assets/experience.png)
 
 # [fit] Developer Experience
 
-- How easy is it to get started?
-- Data validation
-- Small projects
-- large projects
+- **How easy is it to get started?**
+- **Data validation**
+- **Small projects**
+- **Large projects**
+
+---
+
+![](assets/easy-get-started.png)
+
+# **Developer Experience**
+
+## **How easy is it to get started?**
 
 ---
 
@@ -326,16 +336,51 @@ def hello():
 - Easy to get started
 - Flask's [quickstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/) is amazing
 - Quickstart covers everything many small projects need
+- Quickstart is technically a cheatsheet
 
 ---
 
-[.background-color: #00FF00]
+[.background-color: #90ee90]
 
 # Developer Experience:
 
 ## How easy is it to get started?
 
 # [fit] Winner: Flask
+
+---
+
+![](assets/data-validation.png)
+
+# **Developer Experience**
+
+## **Incoming data validation**
+
+---
+
+# Developer Experience
+
+## Incoming data validation
+
+[.column]
+
+# **Django**
+
+TODO code example
+
+[.column]
+
+TODO code example
+
+# **FastAPI**
+
+[.column]
+
+# **Flask**
+
+- No built-in validation
+- flask-wtf is awesome, but no mention in core docs
+- Documentation doesn't encourage data validation
 
 ---
 
@@ -371,7 +416,7 @@ def hello():
 
 ---
 
-[.background-color: #00FF00]
+[.background-color: #90ee90]
 
 # Developer Experience
 
@@ -381,25 +426,31 @@ def hello():
 
 ---
 
-# Developer Experience
+![](assets/small-projects.png)
 
-## Small projects
+# **Developer Experience**
+
+## **Small projects**
+
+---
+
+# Developer Experience
 
 [.column]
 
 # Django :+1: :-1:
 
-- Admin tool is great for small projects with SQL persistence
-- Overkill for projects without SQL persistence
+- Admin tool is great for small projects with SQL databases
+- Overkill for projects without SQL databases
 - Single file apps require advanced knowledge of Django
 
 [.column]
 
-# FastAPI :+1: :+1:
+# **FastAPI** :+1: :+1:
 
 - Light and easy to get started
 - One file apps are easy to build
-- Flexibility on persistence is a virtue
+- Flexibility on databases is a virtue
 - Built-in validation
 - Built-in REST API is awesome
 
@@ -409,17 +460,25 @@ def hello():
 
 - Light and easy to get started
 - One file apps are easy to build
-- Flexibility on persistence is a virtue
+- Flexibility on databases is a virtue
 
 ---
 
-[.background-color: #00FF00]
+[.background-color: #90ee90]
 
 # Developer Experience
 
 ## Small projects
 
 # [fit] Winner: FastAPI
+
+---
+
+![](assets/experience.png)
+
+# **Developer Experience**
+
+## **Large projects**
 
 ---
 
@@ -455,7 +514,7 @@ def hello():
 
 ---
 
-[.background-color: #00FF00]
+[.background-color: #90ee90]
 
 # Developer Experience
 
@@ -494,7 +553,7 @@ def hello():
 
 ---
 
-# About performance metrics
+# About speed metrics
 
 - Often the database is the bottleneck real projects face
 - Indexing and caching are often the best ways to improve performance rather than changing the framework
@@ -502,6 +561,14 @@ def hello():
 ---
 
 # "Lies, Damn Lies and Statistics"
+
+- Different benchmarks use different tools
+- Conditions in tests are often misleading
+- Example: Comparing **Django** with queries to **FastAPI/Flask** with no database access
+
+---
+
+# Apples and Oranges
 
 So many variables that it's easy to get lost in the weeds.
 
@@ -574,17 +641,17 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 [.column]
 
-# Django :+1: :-1:
+# Django :+1:
 
 - Herculean effort to bring async support to Django
 - Not for beginners
-- [Docs](https://docs.djangoproject.com/en/4.2/topics/async/) cover the fundamanetals, but not much else
+- [Docs](https://docs.djangoproject.com/en/4.2/topics/async/) cover the fundamentals, but not much else
 - Nifty `sync_to_async()` decorator
 - Much of ecosystem is synchronous
 
 [.column]
 
-# **FastAPI** :+1:
+# **FastAPI** :+1: :+1:
 
 - Designed from the outset to support async
 - All of the framework is async by default
@@ -592,7 +659,7 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 [.column]
 
-# Flask :+1: :-1:
+# Flask :+1:
 
 - Slow, hence [recommendation](https://flask.palletsprojects.com/en/2.2.x/async-await/#when-to-use-quart-instead) to use Quart instead
 - Modern Flask supports async
@@ -765,7 +832,7 @@ Mad respect to the authors and contributors.
 
 Daniel Roy Greenfeld
 
-Code @ Kraken Technologies
+Code @ Kraken Technologies :octopus:
 
 Author, Coder, Leader
 
