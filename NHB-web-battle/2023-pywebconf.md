@@ -1085,7 +1085,9 @@ Octopus Energy Group is hiring
 
 ---
 
-# [fit] Questions?
+![](assets/questions.png)
+
+# [fit] **Questions?**
 
 <!-- ---
 
@@ -1114,21 +1116,3 @@ Octopus Energy Group is hiring
 ## Doesn't matter which green firm "wins"
 
 # [fit] [climatebase.org](https://climatebase.org/) -->
-
----
-
-# TOPIC
-
-## SUBTOPIC
-
-[.column]
-
-# Django
-
-[.column]
-
-# FastAPI
-
-[.column]
-
-# Flask
