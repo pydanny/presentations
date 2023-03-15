@@ -234,7 +234,7 @@ Mad respect to the authors and contributors.
 
 # [fit] Developer Experience
 
-- **How easy is it to get started?**
+- **Getting started**
 - **Data validation**
 - **Small projects**
 - **Large projects**
@@ -245,13 +245,13 @@ Mad respect to the authors and contributors.
 
 # **Developer Experience**
 
-## **How easy is it to get started?**
+## **Getting started**
 
 ---
 
 # Developer Experience
 
-## How easy is it to get started?
+## Getting started
 
 [.column]
 
@@ -320,7 +320,7 @@ def hello():
 
 # Developer Experience:
 
-## How easy is it to get started?
+## Getting started
 
 [.column]
 
@@ -351,7 +351,7 @@ def hello():
 
 # Developer Experience:
 
-## How easy is it to get started?
+## Getting started
 
 # [fit] Winner: Flask
 
@@ -588,12 +588,12 @@ async def update_item(cheese: Cheese):
 
 # Developer Experience Summary
 
-| Category         | **Django**         | **FastAPI**        | **Flask**          |
-| ---------------- | ------------------ | ------------------ | ------------------ |
-| Ease of learning |                    |                    | :white_check_mark: |
-| Data validation  |                    | :white_check_mark: |                    |
-| Small projects   |                    | :white_check_mark: |                    |
-| Large projects   | :white_check_mark: |                    |                    |
+| Category        | **Django**         | **FastAPI**        | **Flask**          |
+| --------------- | ------------------ | ------------------ | ------------------ |
+| Getting started |                    |                    | :white_check_mark: |
+| Data validation |                    | :white_check_mark: |                    |
+| Small projects  |                    | :white_check_mark: |                    |
+| Large projects  | :white_check_mark: |                    |                    |
 
 ---
 
@@ -609,7 +609,7 @@ async def update_item(cheese: Cheese):
 
 [.header: #000000, text-scale(2.0)]
 
-# **Speed**
+# [fit] Speed
 
 ![](assets/speed-octo.png)
 
@@ -627,6 +627,14 @@ async def update_item(cheese: Cheese):
 - Different benchmarks use different tools
 - Conditions in tests are often misleading
 - Example: Comparing **Django** with queries to **FastAPI/Flask** with no database access
+
+---
+
+![](assets/bench-json.png)
+
+# [fit] Speed
+
+## [fit] **JSON Serialization**
 
 ---
 
@@ -673,6 +681,14 @@ Date: Wed, 17 Apr 2013 12:00:00 GMT
 # Flask :question: :heavy_exclamation_mark:
 
 ![inline](assets/bench-json-flask.png)
+
+---
+
+![](assets/bench-fortunes.png)
+
+# [fit] Speed
+
+## [fit] Fortunes
 
 ---
 
@@ -726,13 +742,11 @@ Date: Wed, 17 Apr 2013 12:00:00 GMT
 
 ---
 
-# Speed
+# [fit] Speed
 
-## Composite
+## [fit] Composite
 
-Combining everything into a single score
-
-TODO use volton image
+![](assets/bench-composite.png)
 
 ---
 
@@ -766,10 +780,9 @@ TODO use volton image
 
 So many variables that it's easy to get lost in the weeds.
 
-1. What's up with the weirdness of Flask metrics in those benchmarks?
-2. FastAPI is really fast with JSON serialization
-3. Flask tends to have better composite scores
-4. Django run as a single file app without middleware, context processors, etc is comparable to Flask and FastAPI
+1. FastAPI is really fast with JSON serialization
+2. Flask tends to have better composite scores
+3. Django run as a single file app without middleware, context processors, etc is comparable to Flask and FastAPI
 
 ---
 
@@ -810,7 +823,9 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 [.header: #000000, text-scale(2.0)]
 
-# **Async Support**
+# [fit] Async
+
+# [fit] Support
 
 ![](assets/async-octo.png)
 
