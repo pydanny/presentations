@@ -630,13 +630,146 @@ async def update_item(cheese: Cheese):
 
 ---
 
+# Speed
+
+## JSON Serialization
+
+Each response is a JSON serialization of a freshly-instantiated object that maps the key message to the value Hello, World!
+
+Example response:
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+Server: Example
+Date: Wed, 17 Apr 2013 12:00:00 GMT
+
+{"message":"Hello, World!"}
+```
+
+---
+
+# Speed
+
+## JSON Serialization
+
+### [techempower.com/benchmarks/#section=data-r21&test=json](https://www.techempower.com/benchmarks/#section=data-r21&test=json)
+
+[.column]
+
+# Django :+1:
+
+![inline](assets/bench-json-django.png)
+
+[.column]
+
+# **FastAPI** :+1: :+1:
+
+![inline](assets/bench-json-fastapi.png)
+
+[.column]
+
+# Flask :question: :heavy_exclamation_mark:
+
+![inline](assets/bench-json-flask.png)
+
+---
+
+# Speed
+
+## Fortunes
+
+- The framework's ORM is used to fetch all rows from a database table containing an unknown number of Unix fortune cookie messages (the table has 12 rows, but the code cannot have foreknowledge of the table's size).
+- An additional fortune cookie message is inserted into the list at runtime and then the list is sorted by the message text.
+- The list is delivered to the client using a server-side HTML template.
+- The message text must be considered untrusted and properly escaped and the UTF-8 fortune messages must be rendered properly.
+- Whitespace is optional and may comply with the framework's best practices.
+
+```
+HTTP/1.1 200 OK
+Content-Length: 1196
+Content-Type: text/html; charset=UTF-8
+Server: Example
+Date: Wed, 17 Apr 2013 12:00:00 GMT
+
+<!DOCTYPE html><html><head><title>Fortunes</title></head><body>...
+```
+
+---
+
+# Speed
+
+## Fortunes
+
+### [techempower.com/benchmarks/#section=data-r21&test=fortunen](https://www.techempower.com/benchmarks/#section=data-r21&test=fortune)
+
+[.column]
+
+# Django :+1:
+
+![inline](assets/bench-fortunes-django.png)
+
+[.column]
+
+# **FastAPI** :+1: :+1:
+
+![inline](assets/bench-fortunes-fastapi.png)
+
+[.column]
+
+# Flask :+1: :question:
+
+![inline](assets/bench-fortunes-flask-raw.png)
+
+![inline](assets/bench-fortunes-flask-orm.png)
+
+---
+
+# Speed
+
+## Composite
+
+Combining everything into a single score
+
+TODO use volton image
+
+---
+
+# Speed
+
+## Composite
+
+### [techempower.com/benchmarks/#section=data-r21&test=composite](https://www.techempower.com/benchmarks/#section=data-r21&test=composite)
+
+[.column]
+
+# Django :+1:
+
+![inline](assets/bench-composite-django.png)
+
+[.column]
+
+# FastAPI :+1:
+
+![inline](assets/bench-composite-fastapi.png)
+
+[.column]
+
+# **Flask** :+1: :+1:
+
+![inline](assets/bench-composite-flask.png)
+
+---
+
 # Apples and Oranges
 
 So many variables that it's easy to get lost in the weeds.
 
-1. FastAPI is really fast with JSON serialization
-2. Flask tends to have better composite scores
-3. Django run as a single file app without middleware, context processors, etc is comparable to Flask and FastAPI
+1. What's up with the weirdness of Flask metrics in those benchmarks?
+2. FastAPI is really fast with JSON serialization
+3. Flask tends to have better composite scores
+4. Django run as a single file app without middleware, context processors, etc is comparable to Flask and FastAPI
 
 ---
 
@@ -648,7 +781,7 @@ Source: [techempower.com/benchmarks/](https://www.techempower.com/benchmarks/)
 
 # Django :-1:
 
-- Slowest of frameworks
+- Usually slowest of the big three Python frameworks
 - Removing critical components to increase speed is a fool's errand
 
 [.column]
@@ -966,3 +1099,21 @@ Octopus Energy Group is hiring
 ## Doesn't matter which green firm "wins"
 
 # [fit] [climatebase.org](https://climatebase.org/) -->
+
+---
+
+# TOPIC
+
+## SUBTOPIC
+
+[.column]
+
+# Django
+
+[.column]
+
+# FastAPI
+
+[.column]
+
+# Flask
