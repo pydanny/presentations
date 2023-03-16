@@ -21,17 +21,19 @@ slide-transition: true
 
 ## Daniel Roy Greenfeld
 
-<!-- ---
+---
 
 # [fit] Hello Python Web Conf!
 
-![inline](https://2023.pythonwebconf.com/python-web-conference-2023/@@images/logo_image) -->
+![inline](https://2023.pythonwebconf.com/python-web-conference-2023/@@images/logo_image)
 
----
+![]()
+
+<!-- ---
 
 # Hello Django London!
 
-![inline](assets/django-london.png)
+![inline](assets/django-london.png) -->
 
 ---
 
@@ -331,10 +333,10 @@ def hello():
 
 [.column]
 
-# FastAPI :+1:
+# FastAPI :+1: :-1:
 
 - Easy to get started
-- [Quickstart](https://fastapi.tiangolo.com/tutorial/first-steps/) focuses on features
+- [Quickstart](https://fastapi.tiangolo.com/tutorial/first-steps/) needs work
 
 [.column]
 
@@ -1035,6 +1037,11 @@ Mad respect to the authors and contributors.
 
 # [fit] Winner: FastAPI
 
+Where FastAPI can improve:
+
+- Quickstart
+- How to build large projects
+
 ---
 
 # About Me
@@ -1067,7 +1074,14 @@ Superhero saving the planet
 
 ---
 
-[.background-color: #00FF00]
+![inline fill](assets/office-1.jpeg) ![inline fill](assets/office-2.jpeg)
+
+![inline fill](assets/super_octo.png) ![inline fill](assets/office-3.jpeg)
+
+---
+
+[.background-color: #180048]
+[.header: #FFFFFF]
 
 # [fit] Join me in the battle against climate change
 
@@ -1075,13 +1089,13 @@ Superhero saving the planet
 
 <br>
 
-Octopus Energy Group is hiring
+### Octopus Energy Group is hiring
 
-[octopus.energy/careers](https://octopus.energy/careers/join-us/#/)
+### [octopus.energy/careers](https://octopus.energy/careers/join-us/#/)
 
 [.column]
 
-![inline](assets/super_octo.png)
+![inline fill](assets/turbine.png)
 
 ---
 
