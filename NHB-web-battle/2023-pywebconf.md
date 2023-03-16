@@ -25,15 +25,17 @@ slide-transition: true
 
 # [fit] Hello Python Web Conf!
 
+[.column]
+
 ![inline](https://2023.pythonwebconf.com/python-web-conference-2023/@@images/logo_image)
 
-![]()
+[.column]
 
-<!-- ---
+![inline](assets/t-shirt.jpg)
 
-# Hello Django London!
+---
 
-![inline](assets/django-london.png) -->
+# [fit] Hello Python Web Conf!
 
 ---
 
@@ -1037,10 +1039,13 @@ Mad respect to the authors and contributors.
 
 # [fit] Winner: FastAPI
 
+<br>
+
 Where FastAPI can improve:
 
 - Quickstart
-- How to build large projects
+- Large projects
+- Governance
 
 ---
 
