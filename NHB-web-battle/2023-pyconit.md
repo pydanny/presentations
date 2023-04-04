@@ -40,11 +40,6 @@ il Tricolore
 
 By Markus Bernet - Own work, CC BY-SA 2.5
 
-
----
-
-# [fit] Hello Python Web Conf!
-
 ---
 
 # [fit] About this talk
