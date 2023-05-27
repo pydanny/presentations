@@ -3,6 +3,7 @@ footer: @pydanny / Kraken Technology :octopus:
 slidenumbers: true
 slide-transition: true
 
+
 ![](assets/cover-fight.png)
 
 # [fit] No Holds Barred
@@ -1163,30 +1164,3 @@ Superhero saving the planet
 
 # [fit] **Questions?**
 
-<!-- ---
-
-[.background-color: #FF0000]
-[.header: #FFFFFF, Avenir Next Bold]
-[.text: #FFFFFF, Avenir Next Bold]
-
-# [fit] Octopus doesn't work for you?
-
-- Wrong country
-- Wrong skills
-- Don't like eight legged mascots
-
----
-
-[.background-color: #ecd540]
-
-# [fit] That's Okay
-
----
-
-[.background-color: #00FF00]
-
-# [fit] Work for the competition
-
-## Doesn't matter which green firm "wins"
-
-# [fit] [climatebase.org](https://climatebase.org/) -->

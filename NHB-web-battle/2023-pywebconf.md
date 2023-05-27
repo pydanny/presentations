@@ -3,7 +3,7 @@ footer: @pydanny / Kraken Technology :octopus:
 slidenumbers: true
 slide-transition: true
 
-![](assets/cover-fight.png)
+![original](assets/cover-fight.png)
 
 # [fit] No Holds Barred
 
