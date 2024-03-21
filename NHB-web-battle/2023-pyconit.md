@@ -61,7 +61,7 @@ By Markus Bernet - Own work, CC BY-SA 2.5
 [.header: #FFFFFF, Avenir Next Bold]
 [.text: #FFFFFF, Avenir Next Bold]
 
-# [fit]My nickname isn't
+# [fit] My nickname isn't
 
 # [fit] "Django Daniel"
 
