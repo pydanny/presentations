@@ -1060,7 +1060,7 @@ _We have a booth at PyCon Italia!_
 
 [.background-color: #00FF00]
 
-# [fit] [octopus.energy/careers](https://octopus.energy/careers/)
+# [fit] [https://octopus.energy/kraken-tech-careers/](https://octopus.energy/kraken-tech-careers/)
 
 ![inline](assets/Kraken_300x300px.png)
 
