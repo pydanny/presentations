@@ -1,4 +1,4 @@
-footer: @pydanny / Octopus Energy :octopus:
+footer: @pydanny / Kraken Tech :octopus:
 slidenumbers: true
 autoscale: true
 slide-transition: true
@@ -31,6 +31,8 @@ Daniel Roy Greenfeld
 [.header: #FFFFFF, Avenir Next Bold]
 [.text: #FFFFFF, Avenir Next Bold]
 
+![](assets/FirenzeDec092023_01.jpg)
+
 # [fit] Ciao Italia!
 
 <br>
@@ -48,7 +50,7 @@ Daniel Roy Greenfeld
 
 # [fit] What this talk is about
 
-- What we do at at individual level scales up
+- What we do at an individual level scales up
 - What happens when what we do scales up?
 
 # [fit] Let's go!
@@ -61,6 +63,8 @@ Daniel Roy Greenfeld
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #90EE90]
 
 # [fit] I had long hair
@@ -69,6 +73,8 @@ Daniel Roy Greenfeld
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #ecd540]
 
 # Got interview at NASA
@@ -115,6 +121,8 @@ Daniel Roy Greenfeld
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #00FFFF]
 
 # [fit] Have fun!
@@ -139,6 +147,8 @@ Daniel Roy Greenfeld
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #ecd540]
 
 # This time:
@@ -173,6 +183,8 @@ Daniel Roy Greenfeld
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #ecd540]
 
 # [fit] I'm stupid
@@ -197,6 +209,8 @@ Daniel Roy Greenfeld
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #00FFFF]
 
 ### I'm stupid
@@ -209,7 +223,11 @@ Daniel Roy Greenfeld
 
 ## Can't figure things out
 
-# OMG argparse
+[.column]
+
+# [fit] OMG argparse
+
+[.column]
 
 ```python
 import argparse
@@ -243,7 +261,11 @@ parser.parse_args()
 
 ## Can't figure things out
 
-# Yay Typer!
+[.column]
+
+# [fit] Yay Typer!
+
+[.column]
 
 ```python
 import typer
@@ -272,6 +294,8 @@ if __name__ == '__main__':
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #00FFFF]
 
 ### I'm stupid
@@ -280,6 +304,8 @@ if __name__ == '__main__':
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #00FF00]
 
 ## _hint:_
@@ -288,6 +314,8 @@ if __name__ == '__main__':
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #00FFFF]
 
 ## _hint:_
@@ -296,6 +324,8 @@ if __name__ == '__main__':
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #00FF00]
 
 ## _important professional advice:_
@@ -304,6 +334,8 @@ if __name__ == '__main__':
 
 ---
 
+[.header: #000000]
+[.text: #000000]
 [.background-color: #00FFFF]
 
 ### Ashamed to ask questions?
@@ -366,7 +398,11 @@ if __name__ == '__main__':
 
 # Remember this?
 
+[.column]
+
 ## Typehints means we don't have to write so many docs
+
+[.column]
 
 ```python
 import typer
@@ -440,7 +476,7 @@ Me back in the day:
 
 # Great for book content
 
-![inline full](assets/Two-Scoops-of-Django-3-Alpha-Cover_1080x.jpg)
+![inline full](https://feldroy.com/static/book-TSD3-800.jpg)
 
 ---
 
@@ -595,7 +631,7 @@ Every project should have a README that covers:
 
 ### If you're watching this, please contact me,
 
-### Octopus Energy 🐙 could use your talents
+### I will convince 🐙 to hire you.
 
 ---
 
@@ -687,7 +723,7 @@ Every project should have a README that covers:
 
 # [fit] Code, Code, Code
 
-# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
+# [fit] [daniel.feldroy.com/code](https://daniel.feldroy.com/code)
 
 ---
 
@@ -809,7 +845,7 @@ Every project should have a README that covers:
 
 # [fit] Code, Code, Code
 
-# [fit] [daniel.feldroy.com/posts/code-code-code](https://daniel.feldroy.com/posts/code-code-code)
+# [fit] [daniel.feldroy.com/code](https://daniel.feldroy.com/code)
 
 ---
 
@@ -840,7 +876,7 @@ A sampling powered by my own stupid laziness and desire to practice
 
 # Sharing Django tribal knowledge
 
-![inline](https://www.feldroy.com/_next/image?url=%2Fimages%2FTwo-Scoops-of-Django-3-Alpha-Cover_1080x.jpg&w=3840&q=75)![inline](https://daniel.feldroy.com/images/danny-and-audrey-tsd111.jpg)![inline](https://daniel.feldroy.com/images/two-scoops-django-co-authors-M.jpg)![inline](https://daniel.feldroy.com/images/tsd15-beta.png)
+![inline](https://feldroy.com/static/book-TSD3-800.jpg)![inline](https://daniel.feldroy.com/images/danny-and-audrey-tsd111.jpg)![inline](https://daniel.feldroy.com/images/two-scoops-django-co-authors-M.jpg)![inline](https://daniel.feldroy.com/images/tsd15-beta.png)
 
 ---
 
@@ -859,7 +895,7 @@ A sampling powered by my own stupid laziness and desire to practice
 - Various community service efforts
   - Health care firms
   - Charities and non-profits
-  - Catching terrorist bombers (Boston Marathon 2013)
+  - Catching criminal bombers (Boston Marathon 2013)
 
 ---
 
@@ -881,13 +917,17 @@ A sampling powered by my own stupid laziness and desire to practice
 
 # [fit] But what if my work was used for evil?
 
-- Logistics for nations who oppress their people
+[.column]
+
+- Logistics for oppressors
 - Commercial ventures to spy on private citizens
 - Site promoting flat earth / no moon landings
 - App to sell wildlife illegally
 - Lots more
 
-# :rage:
+[.column]
+
+# [fit] :rage:
 
 ---
 
@@ -927,8 +967,8 @@ A sampling powered by my own stupid laziness and desire to practice
 Climate change is real
 
 - A series of incrementally hotter years
-- In 2022 Europe and South Asia suffered a devastating heat wave
-- The South Western USA is under severe water restrictions
+- Every year we're suffering worse and worse heat waves
+- The South Western USA is already under phase 2 water restrictions
 
 ---
 
@@ -997,21 +1037,32 @@ Climate change is real
 
 ---
 
+<!-- [.header: #FFFFFF]
+[.text: #FFFFFF] -->
+<!-- [.background-color: #000033] -->
 [.background-color: #00FF00]
 
 # [fit] Join me in the good fight against climate change
 
 [.column]
 
-<br>
+Kraken Tech is hiring
 
-Octopus Energy is hiring
+_We have a booth at PyCon Italia!_
 
-_We have a booth at DjangoCon!_
+![inline](assets/turbine.windmills.svg)
 
 [.column]
 
-![inline](assets/super_octo.png)
+![inline](assets/Kraken_300x300px.png)
+
+---
+
+[.background-color: #00FF00]
+
+# [fit] [octopus.energy/careers](https://octopus.energy/careers/)
+
+![inline](assets/Kraken_300x300px.png)
 
 ---
 
@@ -1019,7 +1070,7 @@ _We have a booth at DjangoCon!_
 [.header: #FFFFFF, Avenir Next Bold]
 [.text: #FFFFFF, Avenir Next Bold]
 
-# [fit] Octopus doesn't work for you?
+# [fit] Kraken doesn't work for you?
 
 - Wrong country
 - Wrong skills
@@ -1043,13 +1094,23 @@ _We have a booth at DjangoCon!_
 
 ## Doesn't matter which green firm "wins", we all benefit
 
-[.column]
+![inline](assets/climatebase.jpeg)
 
-![inline](https://upload.wikimedia.org/wikipedia/commons/c/c2/Aspiration%2C_Inc._logo.png) Aspiration
+---
+
+[.background-color: #00FF00]
+
+# [fit] [climatebase.org](https://climatebase.org)
+
+![inline](assets/climatebase.jpeg)
+
+
+
+<!-- ![inline](https://upload.wikimedia.org/wikipedia/commons/c/c2/Aspiration%2C_Inc._logo.png) Aspiration
 
 ![inline](https://pbs.twimg.com/profile_images/1249918556210257921/_LhElJrc_400x400.jpg) Atmos Bank
 
-![inline](assets/heart-aerospace.png) Heart Aerospace
+![inline](assets/heart-aerospace.png) Heart Aerospace -->
 
 ---
 
@@ -1059,7 +1120,7 @@ _We have a booth at DjangoCon!_
 
 Daniel Roy Greenfeld
 
-Director of Engineering USA @ Octopus Energy
+Developer of Code @ Kraken Tech
 
 Author, Coder, Leader
 
