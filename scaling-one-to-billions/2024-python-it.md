@@ -476,7 +476,28 @@ Me back in the day:
 
 # Great for book content
 
+[.column]
+
 ![inline full](https://feldroy.com/static/book-TSD3-800.jpg)
+
+[.column]
+
+---
+
+## Documentation makes me look good!
+
+# Great for book content
+
+[.column]
+
+![inline full](https://feldroy.com/static/book-TSD3-800.jpg)
+
+[.column]
+
+<br>
+
+# [fit] 5.x?
+
 
 ---
 
@@ -919,9 +940,8 @@ A sampling powered by my own stupid laziness and desire to practice
 
 [.column]
 
-- Logistics for oppressors
 - Commercial ventures to spy on private citizens
-- Site promoting flat earth / no moon landings
+- Sites promoting flat earth / no moon landings
 - App to sell wildlife illegally
 - Lots more
 
@@ -1017,7 +1037,6 @@ Climate change is real
 
 ---
 
-[.build-lists: true]
 [.background-color: #00FF00]
 
 # [fit] My climate impact as a software developer
@@ -1025,6 +1044,16 @@ Climate change is real
 # [fit] working on decarbonization and electrification
 
 # [fit] Gigantic
+
+---
+
+[.background-color: #00FF00]
+
+I am responsible for approximately
+
+# [fit] 60,000
+
+people on renewable energy
 
 ---
 
