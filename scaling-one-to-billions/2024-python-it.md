@@ -31,7 +31,7 @@ Daniel Roy Greenfeld
 [.header: #FFFFFF, Avenir Next Bold]
 [.text: #FFFFFF, Avenir Next Bold]
 
-![](assets/FirenzeDec092023_01.jpg)
+![original](assets/FirenzeDec092023_01.jpg)
 
 # [fit] Ciao Italia!
 
@@ -884,12 +884,19 @@ _(plus the rush when others liked my work)_
 
 A sampling powered by my own stupid laziness and desire to practice
 
-- django-uni-form => django-crispy-forms
+[.column]
+
+- django-crispy-forms
 - Django Packages
 - Django CBV docs refactor
+- dj-stripe
+
+[.column]
+
 - Cookiecutter
 - Cookiecutter Django
 - cached-property
+- dj-notebook
 
 ---
 
@@ -988,7 +995,7 @@ Climate change is real
 
 - A series of incrementally hotter years
 - Every year we're suffering worse and worse heat waves
-- The South Western USA is already under phase 2 water restrictions
+- In May 2024 the South Western USA is already under phase 2 water restrictions
 
 ---
 
@@ -1069,7 +1076,7 @@ people on renewable energy
 <!-- [.header: #FFFFFF]
 [.text: #FFFFFF] -->
 <!-- [.background-color: #000033] -->
-[.background-color: #00FF00]
+[.background-color: #FAF9F6]
 
 # [fit] Join me in the good fight against climate change
 
@@ -1087,7 +1094,7 @@ _We have a booth at PyCon Italia!_
 
 ---
 
-[.background-color: #00FF00]
+[.background-color: #FAF9F6]
 
 # [fit] [https://octopus.energy/kraken-tech-careers/](https://octopus.energy/kraken-tech-careers/)
 
@@ -1175,10 +1182,10 @@ Superhero saving the planet
 
 # [fit] Links
 
-- [https://daniel.feldroy.com/posts/thirty-minute-rule](daniel.feldroy.com/posts/thirty-minute-rule)
-- [https://daniel.feldroy.com/posts/code-code-code](daniel.feldroy.com/posts/code-code-code)
+- [https://daniel.feldroy.com/30](daniel.feldroy.com/posts/thirty-minute-rule)
+- [https://daniel.feldroy.com/code](daniel.feldroy.com/posts/code-code-code)
 - [pydanny-event-notes.readthedocs.io/](https://pydanny-event-notes.readthedocs.io/)
 - [daniel.feldroy.com/posts/2011-12-story-of-live-noting](https://daniel.feldroy.com/posts/2011-12-story-of-live-noting)
 - [typer.tiangolo.com/](https://typer.tiangolo.com/)
 - [fastapi.tiangolo.com/](fastapi.tiangolo.com/)
-- [octopus.energy/careers/join-us/](https://octopus.energy/careers/join-us/)
+- [octopus.energy/kraken-tech-careers/](https://octopus.energy/kraken-tech-careers/)
