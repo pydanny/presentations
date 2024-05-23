@@ -1040,11 +1040,15 @@ Climate change is real
 [.header: #FFFFFF, Avenir Next Bold]
 [.text: #FFFFFF, Avenir Next Bold]
 
-### My impact on climate as an individual is tiny
+### My impact on climate as an individual is tiny[^1]
+
+[^1]: I am responsible for myself and ~2 other people
+
 
 ---
 
 [.background-color: #00FF00]
+[.header: #000000, Avenir Next Bold]
 
 # [fit] My climate impact as a software developer
 
@@ -1055,12 +1059,45 @@ Climate change is real
 ---
 
 [.background-color: #00FF00]
+[.header: #000000, Avenir Next Bold]
+[.text: #000000, Avenir Next Bold]
 
 I am responsible for approximately
 
 # [fit] 60,000
 
 people on renewable energy
+
+---
+
+[.background-color: #FF0000]
+[.header: #FFFFFF, Avenir Next Bold]
+
+# [fit] You may ask
+
+## "isn't travelling here
+
+## contemptuous of my cause?"
+
+---
+
+[.background-color: #00FF00]
+[.header: #000000, Avenir Next Bold]
+[.text: #000000, Avenir Next Bold]
+
+## If I can convince 1+ audience members to join my mission
+
+---
+
+[.background-color: #00FF00]
+[.header: #000000, Avenir Next Bold]
+[.text: #000000, Avenir Next Bold]
+
+Their impact might be similar or greater than my own 
+
+# [fit] 60,000
+
+people on renewable power 
 
 ---
 
